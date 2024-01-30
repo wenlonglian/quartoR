@@ -84,7 +84,7 @@
     "href": "index.html",
     "title": "Learning Diary",
     "section": "",
-    "text": "1 Self Introdution\nThis is a Learning Diary of Remotely Sensing\n\nlibrary(knitr)\nknitr::include_graphics('image/brain.jpg')",
+    "text": "1 Self Introdution\nThis is a Learning Diary of Remotely Sensing\n\n\n\nbrain\n\n\n\nlibrary(knitr)\nknitr::include_graphics('image/brain.jpg')",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introdution</span>"
     ]
