@@ -38,5 +38,55 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
     ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "2  week2",
+    "section": "",
+    "text": "3 Summary\n1 # Pros and Cons\nAdvantages\nDisadvantages",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#sar-application",
+    "href": "week2.html#sar-application",
+    "title": "2  week2",
+    "section": "5.1 SAR Application",
+    "text": "5.1 SAR Application\n\n5.1.1 How SAR Data is used?\nIn the research, SAR data is collected using spaceborne radar sensors that emit signals towards the Earth and measure the reflections. This process allows for the detailed observation of the Earth’s surface, including subtle deformations.\n\n\n5.1.2 How SAR Data is analysed?\nThe analysis of SAR data involves advanced techniques such as Interferometric Synthetic Aperture Radar (InSAR). InSAR utilizes the phase differences in the radar signals received over multiple passes to detect even slight changes in the Earth’s surface, such as those caused by underground movements or reservoir changes. This method enables accurate monitoring of ground deformation, which is critical in understanding the dynamics of reservoirs and their impact on the surrounding environment.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#reflection",
+    "href": "week2.html#reflection",
+    "title": "2  week2",
+    "section": "5.2 Reflection",
+    "text": "5.2 Reflection\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "3  week3",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week3</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Diary",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\n\n\n\n\n\n\n![1](FILE){#reference)\n\n\n![2](FILE){#reference}\n\n\n![3](FILE){#reference}\n\n\n\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
   }
 ]

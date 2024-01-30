@@ -1,14 +1,14 @@
-# Introduction
+
+# week2
 
   This week we learnt Xaringen and Quarto which are tools to make presentation and html with code. It is a better way to make presentation more accessible and mergible for different codes.
 
 # Summary
 
-
-```{r echo = FALSE, out.width='40%'}
+```{r echo = FALSE, out.width='50%'}
 xaringanExtra::embed_xaringan(
-  url = "wenlonglian.github.io/rs/sensor.Rmd",
-  ratio = "16:9")
+  url = "https://wenlonglian.github.io/sensor/",
+  ratio = "4:3")
 
 ```
 
