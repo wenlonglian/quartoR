@@ -1,0 +1,90 @@
+# Introduction
+
+  This week we learnt Xaringen and Quarto which are tools to make presentation and html with code. It is a better way to make presentation more accessible and mergible for different codes.
+
+# Summary
+
+
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "wenlonglian.github.io/rs/sensor.Rmd",
+  ratio = "16:9")
+
+```
+
+1
+# Pros and Cons
+
+
+**Advantages**
+
+1. All-Weather Observation
+
+1. High Resolution
+
+1. Penetration Capability
+
+1. Long-Term Monitoring
+
+1. Diverse Applications]
+
+
+
+**Disadvantages**
+
+2. Complex Data Processing
+
+2. Data Storage and Transmission
+
+2. High Instrumentation Cost
+
+2. Limited Frequency Resources
+
+
+
+# Applications of SAR
+
+- Environmental Monitoring
+
+SAR is used for tracking deforestation, soil moisture levels, changes in wetlands and coastal areas, and monitoring the effects of climate change.
+
+- Agriculture
+
+SAR helps in monitoring crop growth, estimating yields, and assessing soil moisture content, contributing to precision agriculture.
+
+- Disaster Management
+
+SAR plays a crucial role in disaster response by providing rapid and accurate assessments of affected areas after events like earthquakes, floods, and wildfires.
+
+- Infrastructure Monitoring
+
+It detects subsidence, structural deformation, and changes in urban areas, supporting infrastructure management.
+
+
+# Case Study
+
+**"Reservoir monitoring and characterization using satellite geodetic data: Interferometric synthetic aperture radar observations from the Krechba field, Algeria"**
+
+**Author: D. W. Vasco, Alessandro Ferretti, and Fabrizio Novali**
+
+**Abstact**
+
+Application to interferometric synthetic-aperture radar (InSAR) data gathered over a carbon dioxide (CO2) injection site in Algeria reveals pressure propagation along two northwest-trending corridors.
+
+.footnote\[case found from \[Seg Library\](https://library-seg-org.libproxy.ucl.ac.uk/doi/epub/10.1190/1.2981184)]
+
+
+
+## SAR Application
+
+### How SAR Data is used?
+
+In the research, SAR data is collected using spaceborne radar sensors that emit signals towards the Earth and measure the reflections. This process allows for the detailed observation of the Earth's surface, including subtle deformations.
+
+### How SAR Data is analysed?
+
+The analysis of SAR data involves advanced techniques such as Interferometric Synthetic Aperture Radar (InSAR). InSAR utilizes the phase differences in the radar signals received over multiple passes to detect even slight changes in the Earth's surface, such as those caused by underground movements or reservoir changes. This method enables accurate monitoring of ground deformation, which is critical in understanding the dynamics of reservoirs and their impact on the surrounding environment.
+
+
+## Reflection
+I found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included.

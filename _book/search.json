@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\n\n\n\n\n\n\n![1](FILE){#reference)\n\n\n![2](FILE){#reference}\n\n\n![3](FILE){#reference}\n\n\n\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "2 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#reservoir-monitoring-and-characterization-using-satellite-geodetic-data-interferometric-synthetic-aperture-radar-observations-from-the-krechba-field-algeria",
+    "href": "intro.html#reservoir-monitoring-and-characterization-using-satellite-geodetic-data-interferometric-synthetic-aperture-radar-observations-from-the-krechba-field-algeria",
+    "title": "1  Introduction",
+    "section": "7.1 “Reservoir monitoring and characterization using satellite geodetic data: Interferometric synthetic aperture radar observations from the Krechba field, Algeria”",
+    "text": "7.1 “Reservoir monitoring and characterization using satellite geodetic data: Interferometric synthetic aperture radar observations from the Krechba field, Algeria”",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#author-d.-w.-vasco-alessandro-ferretti-and-fabrizio-novali",
+    "href": "intro.html#author-d.-w.-vasco-alessandro-ferretti-and-fabrizio-novali",
+    "title": "1  Introduction",
+    "section": "7.2 Author: D. W. Vasco, Alessandro Ferretti, and Fabrizio Novali",
+    "text": "7.2 Author: D. W. Vasco, Alessandro Ferretti, and Fabrizio Novali\nAbstact\nApplication to interferometric synthetic-aperture radar (InSAR) data gathered over a carbon dioxide (CO2) injection site in Algeria reveals pressure propagation along two northwest-trending corridors.\n.footnote[case found from [Seg Library](https://library-seg-org.libproxy.ucl.ac.uk/doi/epub/10.1190/1.2981184)]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#reflection",
+    "href": "intro.html#reflection",
+    "title": "1  Introduction",
+    "section": "5.2 Reflection",
+    "text": "5.2 Reflection\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#sar-application",
+    "href": "intro.html#sar-application",
+    "title": "1  Introduction",
+    "section": "5.1 SAR Application",
+    "text": "5.1 SAR Application\n\n5.1.1 How SAR Data is used?\nIn the research, SAR data is collected using spaceborne radar sensors that emit signals towards the Earth and measure the reflections. This process allows for the detailed observation of the Earth’s surface, including subtle deformations.\n\n\n5.1.2 How SAR Data is analysed?\nThe analysis of SAR data involves advanced techniques such as Interferometric Synthetic Aperture Radar (InSAR). InSAR utilizes the phase differences in the radar signals received over multiple passes to detect even slight changes in the Earth’s surface, such as those caused by underground movements or reservoir changes. This method enables accurate monitoring of ground deformation, which is critical in understanding the dynamics of reservoirs and their impact on the surrounding environment.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  }
+]

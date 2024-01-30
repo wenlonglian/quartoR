@@ -1,0 +1,17 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+::: {#CHUNKNAME layout-ncol="3"}
+\![1\](FILE){#reference)
+
+\![2\](FILE){#reference}
+
+\![3\](FILE){#reference}
+:::
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
