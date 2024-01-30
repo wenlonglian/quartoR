@@ -84,9 +84,9 @@
     "href": "index.html",
     "title": "Learning Diary",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\n\n\n\n\n\n\n![1](FILE){#reference)\n\n\n![2](FILE){#reference}\n\n\n![3](FILE){#reference}\n\n\n\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "1 Self Introdution\nThis is a Learning Diary of Remotely Sensing\n\nlibrary(knitr)\nknitr::include_graphics('image/brain.jpg')",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introdution</span>"
     ]
   }
 ]
