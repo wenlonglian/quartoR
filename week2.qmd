@@ -12,67 +12,6 @@ xaringanExtra::embed_xaringan(
 
 ```
 
-1
-# Pros and Cons
-
-
-**Advantages**
-
-1. All-Weather Observation
-
-1. High Resolution
-
-1. Penetration Capability
-
-1. Long-Term Monitoring
-
-1. Diverse Applications]
-
-
-
-**Disadvantages**
-
-2. Complex Data Processing
-
-2. Data Storage and Transmission
-
-2. High Instrumentation Cost
-
-2. Limited Frequency Resources
-
-
-
-# Applications of SAR
-
-- Environmental Monitoring
-
-SAR is used for tracking deforestation, soil moisture levels, changes in wetlands and coastal areas, and monitoring the effects of climate change.
-
-- Agriculture
-
-SAR helps in monitoring crop growth, estimating yields, and assessing soil moisture content, contributing to precision agriculture.
-
-- Disaster Management
-
-SAR plays a crucial role in disaster response by providing rapid and accurate assessments of affected areas after events like earthquakes, floods, and wildfires.
-
-- Infrastructure Monitoring
-
-It detects subsidence, structural deformation, and changes in urban areas, supporting infrastructure management.
-
-
-# Case Study
-
-**"Reservoir monitoring and characterization using satellite geodetic data: Interferometric synthetic aperture radar observations from the Krechba field, Algeria"**
-
-**Author: D. W. Vasco, Alessandro Ferretti, and Fabrizio Novali**
-
-**Abstact**
-
-Application to interferometric synthetic-aperture radar (InSAR) data gathered over a carbon dioxide (CO2) injection site in Algeria reveals pressure propagation along two northwest-trending corridors.
-
-.footnote\[case found from \[Seg Library\](https://library-seg-org.libproxy.ucl.ac.uk/doi/epub/10.1190/1.2981184)]
-
 
 
 ## SAR Application

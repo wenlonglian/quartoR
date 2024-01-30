@@ -4,9 +4,6 @@ This is a Learning Diary of Remotely Sensing
 
 ![brain](image/brain.jpg)
 
-```{r}
-library(knitr)
-knitr::include_graphics('image/brain.jpg')
-```
+
 
 
