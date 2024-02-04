@@ -1,9 +1,32 @@
-# Self Introdution 
+---
+title: "Self Introduction"
+format: 
+  html:
+    theme: cosmo
+    toc: true
+    toc_depth: 2
+---
 
-This is a Learning Diary of Remotely Sensing
+# Welcome to My Learning Diary
 
-![brain](image/brain.jpg)
+## About This Diary
 
+This diary is a journey through my exploration of Remote Sensing. It's a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.
 
+### Visualizing Concepts
+
+One of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.
+
+![The Brain of Remote Sensing](image/brain.jpg){width=50%}
+
+### What to Expect
+
+In this diary, you'll find:
+
+- **Weekly Reflections**: My thoughts and reflections on what I've learned each week.
+- **Project Highlights**: Overviews of projects and assignments, showcasing applications of remote sensing.
+- **Resource Reviews**: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.
+
+Stay tuned as I embark on this enlightening journey into the world of remote sensing.
 
 

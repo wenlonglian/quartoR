@@ -42,31 +42,31 @@
   {
     "objectID": "week2.html",
     "href": "week2.html",
-    "title": "3  week2",
+    "title": "3  week2： Xaringen and Quarto",
     "section": "",
     "text": "4 Summary",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2： Xaringen and Quarto</span>"
     ]
   },
   {
     "objectID": "week2.html#sar-application",
     "href": "week2.html#sar-application",
-    "title": "3  week2",
+    "title": "3  week2： Xaringen and Quarto",
     "section": "4.1 SAR Application",
     "text": "4.1 SAR Application\n\n4.1.1 How SAR Data is used?\nIn the research, SAR data is collected using spaceborne radar sensors that emit signals towards the Earth and measure the reflections. This process allows for the detailed observation of the Earth’s surface, including subtle deformations.\n\n\n4.1.2 How SAR Data is analysed?\nThe analysis of SAR data involves advanced techniques such as Interferometric Synthetic Aperture Radar (InSAR). InSAR utilizes the phase differences in the radar signals received over multiple passes to detect even slight changes in the Earth’s surface, such as those caused by underground movements or reservoir changes. This method enables accurate monitoring of ground deformation, which is critical in understanding the dynamics of reservoirs and their impact on the surrounding environment.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2： Xaringen and Quarto</span>"
     ]
   },
   {
     "objectID": "week2.html#reflection",
     "href": "week2.html#reflection",
-    "title": "3  week2",
+    "title": "3  week2： Xaringen and Quarto",
     "section": "4.2 Reflection",
     "text": "4.2 Reflection\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2： Xaringen and Quarto</span>"
     ]
   },
   {
@@ -74,7 +74,7 @@
     "href": "week3.html",
     "title": "4  week3",
     "section": "",
-    "text": "4.1 Summary",
+    "text": "4.1 Summary\nRadiometric Calibration Geometric correction solution Atmospheric correction Orthorectification correction\nreflectance radiance DN\nfuse PCA texture ## Application ## Reflection ## Reference",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
     ]
@@ -84,19 +84,19 @@
     "href": "index.html",
     "title": "Learning Diary",
     "section": "",
-    "text": "1 Self Introdution\nThis is a Learning Diary of Remotely Sensing\n\n\n\nbrain",
+    "text": "1 Welcome to My Learning Diary",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introdution</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introduction</span>"
     ]
   },
   {
     "objectID": "week1.html",
     "href": "week1.html",
-    "title": "2  week1",
+    "title": "2  Week1: Introduction to Remote Sensing",
     "section": "",
-    "text": "2.1 Summary",
+    "text": "3 Summary\nThe course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:\n\nUnderstanding the differences between Landsat and Sentinel data.\nPerforming basic raster image statistics and processing.\nEvaluating the advantages and disadvantages of each type of software used.\nExtracting and comparing spectral signatures.\n\n\n\n\nSNAP interface\n\n\n\n\n4 Application\n\nForest Monitoring Coppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. Remote Sensing Reviews, 13(3-4), 207-234. utilized Landsat data to track deforestation and forest degradation over time. The study employed digital change detection techniques to analyze temporal variations in forest ecosystems.\nUrban Expansion Esch et al., 2017 applied Sentinel data to assess urban sprawl and its environmental impacts. This study leveraged high-resolution imagery to map human settlements and analyze urban footprint expansion globally.\nAgriculture and Crop Monitoring Zhang et al., 2016 used both Landsat and Sentinel-2 data to monitor crop health and predict agricultural outputs. The study focused on satellite-based climate data records to observe crop phenology, employing spectral analysis to assess vegetation health.\n\n\nthe reviewed studiesthe importance of spectral analysis and change detection in environmental monitoring.\nThe use of Sentinel and Landsat data as primary sources for remote sensing analysis is a common thread, highlighting their utility in tracking changes over time across various ecosystems.\nAdvanced techniques such as downscaling for super-resolution imaging and the application of spectral indices for enhanced analysis are discussed, showcasing the evolution of remote sensing methodologies.\n\nThe studies reveal a progression from foundational remote sensing techniques towards more sophisticated and user-friendly analytical methods. Innovations in software and processing tools have expanded the capabilities of researchers to analyze and interpret environmental data, enhancing the accuracy and efficiency of remote sensing analyses.\n\n\n5 Reflection\nThroughout this session on remote sensing, I’ve learned the importance and application of satellite data in environmental monitoring. Understanding the differences between Landsat and Sentinel datasets and how to process these images in software like QGIS and SNAP has opened up new avenues for analyzing geographical information. The practical applications, from forest monitoring to urban planning, have shown me the vast potential of remote sensing data. Reflecting on this, I see immense value in applying these techniques to future projects, particularly in urban sustainability and climate change mitigation efforts. The resources provided, especially the detailed instructions for data processing, have enriched my understanding and skills in remote sensing, paving the way for innovative research and application in my future work.\n\n\n6 References\n\nCoppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. Remote Sensing Reviews, 13(3-4), 207-234.\nEsch, T., et al. (2017). Breaking new ground in mapping human settlements from space – The Global Urban Footprint. ISPRS Journal of Photogrammetry and Remote Sensing, 134, 30-42.\nZhang, X., et al. (2016). Monitoring crop phenology using a satellite-based Climate Data Record. Remote Sensing of Environment, 185, 143-155.\nMacLachlan, A. (2024). CASA0023 Remotely Sensing Cities and Environments - 1 Getting started with remote sensing. Retrieved from https://andrewmaclachlan.github.io/CASA0023/intro.html",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>week1</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week1: Introduction to Remote Sensing</span>"
     ]
   },
   {
@@ -157,6 +157,26 @@
     "text": "4.4 Reference",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#references",
+    "href": "week1.html#references",
+    "title": "2  Week1: Introduction to Remote Sensing",
+    "section": "4.1 References",
+    "text": "4.1 References\n\nCoppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. Remote Sensing Reviews, 13(3-4), 207-234.\nEsch, T., et al. (2017). Breaking new ground in mapping human settlements from space – The Global Urban Footprint. ISPRS Journal of Photogrammetry and Remote Sensing, 134, 30-42.\nZhang, X., et al. (2016). Monitoring crop phenology using a satellite-based Climate Data Record. Remote Sensing of Environment, 185, 143-155.\nMacLachlan, A. (2024). CASA0023 Remotely Sensing Cities and Environments - 1 Getting started with remote sensing. Retrieved from",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-diary",
+    "href": "index.html#about-this-diary",
+    "title": "Learning Diary",
+    "section": "1.1 About This Diary",
+    "text": "1.1 About This Diary\nThis diary is a journey through my exploration of Remote Sensing. It’s a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.\n\n1.1.1 Visualizing Concepts\nOne of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.\n\n\n\nThe Brain of Remote Sensing\n\n\n\n\n1.1.2 What to Expect\nIn this diary, you’ll find:\n\nWeekly Reflections: My thoughts and reflections on what I’ve learned each week.\nProject Highlights: Overviews of projects and assignments, showcasing applications of remote sensing.\nResource Reviews: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.\n\nStay tuned as I embark on this enlightening journey into the world of remote sensing.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introduction</span>"
     ]
   }
 ]

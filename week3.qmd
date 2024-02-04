@@ -1,6 +1,18 @@
 # week3
 
 ## Summary
+Radiometric Calibration
+Geometric correction solution
+Atmospheric correction
+Orthorectification correction
+
+reflectance
+radiance
+DN
+
+fuse
+PCA
+texture
 ## Application
 ## Reflection
 ## Reference
