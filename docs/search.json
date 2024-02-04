@@ -72,11 +72,11 @@
   {
     "objectID": "week3.html",
     "href": "week3.html",
-    "title": "4  week3",
+    "title": "4  Week3: Correction",
     "section": "",
-    "text": "4.1 Summary\nRadiometric Calibration Geometric correction solution Atmospheric correction Orthorectification correction\nreflectance radiance DN\nfuse PCA texture ## Application ## Reflection ## Reference",
+    "text": "4.1 Summary\nThis session introduced the fundamentals and applications of remote sensing in urban and environmental contexts, focusing on data corrections, data joining, and enhancement techniques.Including:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
   },
   {
@@ -132,31 +132,31 @@
   {
     "objectID": "week3.html#application",
     "href": "week3.html#application",
-    "title": "4  week3",
+    "title": "4  Week3: Correction",
     "section": "4.2 Application",
-    "text": "4.2 Application",
+    "text": "4.2 Application\nIn exploring the application of remote sensing data and methods mentioned in the course, several studies highlight the innovative use of these techniques:\n\nSchulte to Bühne and Pettorelli (2018) demonstrated the integration of multispectral and radar satellite imagery to inform biodiversity monitoring and conservation science. This study exemplifies the power of data fusion in enhancing the quality and utility of remote sensing data for ecological research (Schulte to Bühne, H., Pettorelli, N., 2018. Methods in Ecology and Evolution).\nThe use of atmospheric correction techniques, such as Dark Object Subtraction (DOS), to improve the accuracy of satellite imagery analysis is well-documented. This approach corrects for atmospheric effects on satellite data, enhancing the reliability of the derived insights for environmental monitoring (Joyce, K., 2013).\nAdvances in geometric corrections have significantly improved the precision of satellite imagery. By aligning satellite data with known geographic features, researchers can ensure the spatial accuracy of their analyses, supporting a wide range of applications from urban planning to environmental conservation (Jensen, J.R., 2015).\n\nThese examples underscore the importance of advanced remote sensing techniques and corrections in extracting meaningful information from satellite data, driving innovation in environmental science and urban studies.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
   },
   {
     "objectID": "week3.html#reflection",
     "href": "week3.html#reflection",
-    "title": "4  week3",
+    "title": "4  Week3: Correction",
     "section": "4.3 Reflection",
-    "text": "4.3 Reflection",
+    "text": "4.3 Reflection\nReflecting on this session, I’ve gained a deeper appreciation for the complexity and potential of remote sensing in understanding and managing our environment. The detailed discussion on data corrections illuminated the challenges of working with satellite imagery and the importance of meticulous preprocessing to ensure data accuracy. The application examples provided a concrete understanding of how these techniques are employed in real-world research, offering insights into the potential of remote sensing data in future work.\nThe advancements in data joining and enhancement techniques, particularly through the integration of multispectral and radar data, open new avenues for exploration in my future projects.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
   },
   {
     "objectID": "week3.html#reference",
     "href": "week3.html#reference",
-    "title": "4  week3",
+    "title": "4  Week3: Correction",
     "section": "4.4 Reference",
-    "text": "4.4 Reference",
+    "text": "4.4 Reference\n\nSchulte to Bühne, H., Pettorelli, N., 2018. Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science. Methods in Ecology and Evolution 9, 849–865. https://doi.org/10.1111/2041-210X.12942\nJoyce, K., 2013. Radiative transfer and atmospheric correction video. https://www.youtube.com/watch?v=qb4yFwzsnU8&t\nJensen, J.R., 2015. Introductory digital image processing: a remote sensing perspective. Prentice-Hall Inc. https://read.kortext.com/reader/pdf/1872407/Cover",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>week3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
   },
   {
@@ -177,6 +177,16 @@
     "text": "1.1 About This Diary\nThis diary is a journey through my exploration of Remote Sensing. It’s a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.\n\n1.1.1 Visualizing Concepts\nOne of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.\n\n\n\nThe Brain of Remote Sensing\n\n\n\n\n1.1.2 What to Expect\nIn this diary, you’ll find:\n\nWeekly Reflections: My thoughts and reflections on what I’ve learned each week.\nProject Highlights: Overviews of projects and assignments, showcasing applications of remote sensing.\nResource Reviews: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.\n\nStay tuned as I embark on this enlightening journey into the world of remote sensing.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "4  Week3: Correction",
+    "section": "",
+    "text": "Remote Sensing Data and Corrections: It covers geometric, atmospheric, orthorectification/topographic, and radiometric corrections. These corrections are crucial for preparing the data for accurate analysis by correcting distortions and errors introduced during data acquisition.\nData Joining and Enhancement: Techniques such as feathering and image enhancement are discussed. These methods improve the visual quality of satellite images, making them more suitable for analysis and interpretation.\nHow to use tool: The session introduced various tools and methods used in remote sensing, including the use of multispectral and radar satellite imagery for biodiversity monitoring and conservation science.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
   }
 ]

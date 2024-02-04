@@ -19,7 +19,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: Cerulean
+    theme: Cosmo
   pdf:
     documentclass: scrreprt
 

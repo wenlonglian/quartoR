@@ -1,18 +1,42 @@
-# week3
 
+---
+title: "Week3: Correction"
+output: html_document
+---
 ## Summary
-Radiometric Calibration
-Geometric correction solution
-Atmospheric correction
-Orthorectification correction
 
-reflectance
-radiance
-DN
+This session introduced the fundamentals and applications of remote sensing in urban and environmental contexts, focusing on data corrections, data joining, and enhancement techniques.Including:
 
-fuse
-PCA
-texture
+- **Remote Sensing Data and Corrections**: It covers geometric, atmospheric, orthorectification/topographic, and radiometric corrections. These corrections are crucial for preparing the data for accurate analysis by correcting distortions and errors introduced during data acquisition.
+
+- **Data Joining and Enhancement**: Techniques such as feathering and image enhancement are discussed. These methods improve the visual quality of satellite images, making them more suitable for analysis and interpretation.
+
+- **How to use tool**: The session introduced various tools and methods used in remote sensing, including the use of multispectral and radar satellite imagery for biodiversity monitoring and conservation science.
+
 ## Application
+
+In exploring the application of remote sensing data and methods mentioned in the course, several studies highlight the innovative use of these techniques:
+
+1. Schulte to Bühne and Pettorelli (2018) demonstrated the integration of multispectral and radar satellite imagery to inform biodiversity monitoring and conservation science. This study exemplifies the power of data fusion in enhancing the quality and utility of remote sensing data for ecological research ([Schulte to Bühne, H., Pettorelli, N., 2018. Methods in Ecology and Evolution](https://doi.org/10.1111/2041-210X.12942)).
+
+2. The use of atmospheric correction techniques, such as Dark Object Subtraction (DOS), to improve the accuracy of satellite imagery analysis is well-documented. This approach corrects for atmospheric effects on satellite data, enhancing the reliability of the derived insights for environmental monitoring ([Joyce, K., 2013](https://www.youtube.com/watch?v=qb4yFwzsnU8&t)).
+
+3. Advances in geometric corrections have significantly improved the precision of satellite imagery. By aligning satellite data with known geographic features, researchers can ensure the spatial accuracy of their analyses, supporting a wide range of applications from urban planning to environmental conservation ([Jensen, J.R., 2015](https://read.kortext.com/reader/pdf/1872407/Cover)).
+
+These examples underscore the importance of advanced remote sensing techniques and corrections in extracting meaningful information from satellite data, driving innovation in environmental science and urban studies.
+
 ## Reflection
+
+Reflecting on this session, I've gained a deeper appreciation for the complexity and potential of remote sensing in understanding and managing our environment. The detailed discussion on data corrections illuminated the challenges of working with satellite imagery and the importance of meticulous preprocessing to ensure data accuracy. The application examples provided a concrete understanding of how these techniques are employed in real-world research, offering insights into the potential of remote sensing data in future work.
+
+The advancements in data joining and enhancement techniques, particularly through the integration of multispectral and radar data, open new avenues for exploration in my future projects. 
+
 ## Reference
+
+- Schulte to Bühne, H., Pettorelli, N., 2018. Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science. Methods in Ecology and Evolution 9, 849–865. [https://doi.org/10.1111/2041-210X.12942](https://doi.org/10.1111/2041-210X.12942)
+
+- Joyce, K., 2013. Radiative transfer and atmospheric correction video. [https://www.youtube.com/watch?v=qb4yFwzsnU8&t](https://www.youtube.com/watch?v=qb4yFwzsnU8&t)
+
+- Jensen, J.R., 2015. Introductory digital image processing: a remote sensing perspective. Prentice-Hall Inc. [https://read.kortext.com/reader/pdf/1872407/Cover](https://read.kortext.com/reader/pdf/1872407/Cover)
+
+
