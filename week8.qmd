@@ -1,0 +1,39 @@
+---
+title: "week8: classification"
+format: html
+editor: visual
+---
+
+# Week 8: classification
+
+
+
+# Summary
+
+This week, we delved into the critical aspects of **Classification** in remotely sensing cities and environments. We have two lectures this week, about *Classification and Accuracy*, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.
+
+## Lecture 6: Classification
+
+The lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.
+
+## Lecture 7: Classification and Accuracy
+
+Continuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the *METHODS* in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.
+
+# Application
+
+In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by Jenerowicz et al. (2018) utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, Alzahrani and Kanan (2022) applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by Chen (2021) explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.
+
+
+
+# Reflection
+
+Reflecting on the remote sensing course, I've gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied?  I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions. 
+
+# Reference
+
+
+- Jenerowicz et al. (2018): [Data fusion for high accuracy classification of urban areas](https://dx.doi.org/10.1117/12.2325809)
+- Alzahrani and Kanan (2022): [Machine Learning Approaches for Developing Land Cover Mapping](https://dx.doi.org/10.1155/2022/5190193)
+- Chen (2021): [Remote Sensing Image Classification Based on Fuzzy RBF Neural Network Combine with Genetic Algorithm](https://dx.doi.org/10.1145/3510858.3511007)
+

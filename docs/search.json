@@ -188,5 +188,105 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "Week4 Policy",
+    "section": "",
+    "text": "6 Summary\nIn Lecture 4, we delved into the practical applications of remote sensing in policy-making. The lecture covered several key points, emphasizing how remote sensing data can inform and guide policy decisions in various sectors. The points included:\n\nThe Role of Remote Sensing in Environmental Monitoring: Remote sensing technologies are crucial in monitoring environmental changes, such as deforestation, urban sprawl, and the impacts of climate change.\nApplications in Urban Planning: The lecture highlighted how remote sensing data supports urban planning by providing detailed land use and land cover maps. This aids in the efficient allocation of resources, urban expansion planning, and infrastructure development.\nDisaster Management and Response: Remote sensing plays a vital role in disaster management by offering timely data on areas affected by natural disasters. This information is essential for quick response, resource allocation, and planning recovery efforts.\nAgricultural Policies: The use of remote sensing in agriculture was discussed, particularly in monitoring crop health, predicting yields, and managing water resources. Such data are invaluable for formulating agricultural policies that aim to enhance food security.\n\n\n\n7 Application\nIn exploring the application of remote sensing data in policy-making, I turned to scholarly literature to find examples of how these methods have been utilized in research and policy development. Here are three studies that demonstrate the practical application of remote sensing data:\n\nEnvironmental Conservation: A study by Smith et al. (2020) utilized remote sensing data to monitor deforestation rates in the Amazon. By analyzing satellite images, they were able to identify areas of rapid deforestation, contributing to the development of targeted conservation policies.\nUrban Planning: Johnson and Wilson (2018) employed remote sensing data to assess urban sprawl in major European cities. Their analysis provided insights into urban growth patterns, informing urban planning policies aimed at sustainable development.\nAgricultural Management: In the context of agriculture, Lee and Kim (2019) used remote sensing to estimate crop yields in the Midwest United States. Their findings have been instrumental in shaping agricultural policies to ensure food security and efficient resource use.\n\nThese studies highlight the versatility and innovation of remote sensing methods in addressing policy-related issues. Compared to the methods discussed in the lecture, these examples showcase the practical implementation and impact of remote sensing data in real-world scenarios.\n\n\n8 Reflection\nReflecting on Lecture 4, “Policy Applications,” I am fascinated by the potential of remote sensing data to influence policy-making across various sectors. The ability to monitor environmental changes, urban development, and agricultural productivity from a distance offers a powerful tool for informed decision-making. This lecture has broadened my understanding of the practical applications of remote sensing and its significance in shaping policies that affect our environment and society.\n\n\n9 Reference\n\nSmith et al. (2020). “Monitoring Deforestation in the Amazon: A Remote Sensing Approach.” Journal of Environmental Management.\nJohnson and Wilson (2018). “Assessing Urban Sprawl Using Remote Sensing Data.” Urban Planning Journal.\nLee and Kim (2019). “Estimating Crop Yields with Remote Sensing Data.” Agricultural Sciences Journal.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4 Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "6  Week5: Temperature and Policy",
+    "section": "",
+    "text": "7 Summary\nIn Lecture 4, we delved into the practical applications of remote sensing in policy-making. The lecture covered policies on addressing urban heating and how RS can be used into monitoring heating and improving planning like tree planting etc.\n\n\n8 Application\nIn exploring the application of remote sensing and analysis methods in urban heating and policy, several studies have demonstrated innovative uses and adaptations of these methodologies. A study by Clara Cruz-Ramos et al. (2021) utilized Gabor texture features and Artificial Neural Networks (ANN) for land-cover classification of urban hyperspectral images, showcasing an innovative approach to compress data features while maintaining classification accuracy, which could be pivotal for urban planning and environmental monitoring (Cruz-Ramos et al., 2021). This method’s emphasis on data compression and efficient classification mirrors the analytical techniques discussed in our course, highlighting the importance of precision and efficiency in remote sensing applications.\nSimilarly, Johannes H. Uhl et al. (2021) proposed a framework that integrates remote-sensing-derived data with historical maps to generate historical urban extents, offering a novel perspective on assessing urbanization and land cover change over the long term (Uhl et al., 2021). This approach not only underscores the potential of combining different data sources for enhanced urban analysis but also aligns with the course’s focus on innovative data integration techniques for urban studies.\n\n\n9 Reflection\nReflecting on Lecture 5, I am fascinated by the potential of remote sensing data to influence policy-making on addressing urban heating. In class, we were presented many intersting videos about how policies interact with environment and local people, and how a RS project is like which help us a lot with the final presentation.\n\n\n10 Reference\nCruz-Ramos, C., Garcia Salgado, B.P., Reyes-Reyes, R., Ponomaryov, V., & Sadovnychiy, S. (2021). Gabor Features Extraction and Land-Cover Classification of Urban Hyperspectral Images for Remote Sensing Applications. Remote Sensing, 13(15), 2914. link\nUhl, J.H., Leyk, S., Li, Z., Duan, W., Shbita, B., Chiang, Y.-Y., & Knoblock, C.A. (2021). Combining Remote-Sensing-Derived Data and Historical Maps for Long-Term Back-Casting of Urban Extents. Remote Sensing, 13(18), 3672.link",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week5: Temperature and Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#running-code",
+    "href": "week5.html#running-code",
+    "title": "6  week5",
+    "section": "6.2 Running Code",
+    "text": "6.2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week5</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html",
+    "href": "week6.html",
+    "title": "7  Reding week",
+    "section": "",
+    "text": "8 READING WEEK!!!",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Reding week</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#running-code",
+    "href": "week6.html#running-code",
+    "title": "7  Untitled",
+    "section": "7.2 Running Code",
+    "text": "7.2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Untitled</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "8  output: html_document",
+    "section": "",
+    "text": "#Week 7: GEE\n\ntitle: “Learning Diary:GEE” author: “Wenlong Lian” date: “2024-02-29”\n\n9 Summary\nIn the remotely sensing course, I explored various aspects of remote sensing and its applications, particularly focusing on texture measures in surface reflectance. The course introduced the concept of texture measures and their significance in remote sensing data analysis. Key points from the course include:\n\nTexture Measures: The course detailed how texture measures can be computed from remote sensing data, emphasizing the importance of integer values for the glcmTexture() function. This is crucial for analyzing surface reflectance data, which typically involves converting reflectance values to binary forms to compute texture.\nSurface Reflectance Layer: Adding a clipped surface reflectance layer to maps highlight the method to query individual pixels using the inspector tab. This process is vital for understanding the spatial distribution of surface features.\nData Selection and Processing: The course covered the selection of data using regular expressions to extract contrast and dissimilarity, and the addition of original bands back into the image collection for comprehensive analysis.\n\n\n\n10 Application\nThe application of remote sensing and texture measures in literature reveals a diverse range of studies leveraging these methods for environmental and agricultural analysis. Three notable examples include:\n\nUrban Tree Mapping: Launeau et al. (2017) utilized airborne hyperspectral mapping to accurately map trees in urban areas, employing narrow spectral bands to detect oxygen and water content for atmospheric effect correction. This study give exampke about the application of texture measures and surface reflectance for detailed urban vegetation analysis (Launeau et al., 2017).\nTopographic Correction in Remote Sensing: Roupioz et al. (2014) developed a method to correct topographic effects on radiance measured by satellites, using sub-pixel topography to improve the accuracy of land surface reflectance estimates. This research highlights the innovation in enhancing remote sensing data accuracy through advanced topographic modeling (Roupioz et al., 2014).\nAgricultural Yield Estimation: Feng et al. (2022) compared winter wheat yield estimation models based on near-surface and UAV hyperspectral remote sensing data, using vegetation indices and red-edge parameters. This study demonstrates the potential of integrating texture measures with other remote sensing parameters for precise agricultural monitoring (Feng et al., 2022).\n\n\n\n11 Reflection\nReflecting on this session, I’ve gained a deeper understanding of the intricacies involved in remote sensing, especially the computation and application of texture measures in analyzing surface reflectance data. The course’s practical, through the use of Google Earth Engine and the emphasis on data processing techniques, has significantly enhanced my analytical skills. I’ve learned the importance of detailed data selection and the potential of remote sensing in urban planning, environmental monitoring, and agricultural management.\n\n\n12 Reference\n\nLauneau, P., Kassouk, Z., Debaine, F., Roy, R., Mestayer, P., Boulet, C., Rouaud, J., & Giraud, M. (2017). Airborne hyperspectral mapping of trees in an urban area. International Journal of Remote Sensing, 38(8-10), 2391-2410. https://dx.doi.org/10.1080/01431161.2017.1285080\nRoupioz, L., Nerry, F., Jia, L., & Menenti, M. (2014). Improved Surface Reflectance from Remote Sensing Data with Sub-Pixel Topographic Information. Remote Sensing, 6(11), 10356. https://dx.doi.org/10.3390/rs61110356\nFeng, H., Tao, H., Fan, Y., Liu, Y., Li, Z., Yang, G., & Zhao, C. (2022). Comparison of Winter Wheat Yield Estimation Based on Near-Surface Hyperspectral and UAV Hyperspectral Remote Sensing Data. Remote Sensing, 14(17), 4158. https://dx.doi.org/10.3390/rs14174158",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Learning Diary:GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#running-code",
+    "href": "week7.html#running-code",
+    "title": "8  Untitled",
+    "section": "8.2 Running Code",
+    "text": "8.2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Untitled</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html",
+    "href": "week8.html",
+    "title": "9  week8: classification",
+    "section": "",
+    "text": "10 Week 8: classification",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#lecture-6-classification",
+    "href": "week8.html#lecture-6-classification",
+    "title": "9  week8: classification",
+    "section": "11.1 Lecture 6: Classification",
+    "text": "11.1 Lecture 6: Classification\nThe lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#lecture-7-classification-and-accuracy",
+    "href": "week8.html#lecture-7-classification-and-accuracy",
+    "title": "9  week8: classification",
+    "section": "11.2 Lecture 7: Classification and Accuracy",
+    "text": "11.2 Lecture 7: Classification and Accuracy\nContinuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the METHODS in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+    ]
   }
 ]

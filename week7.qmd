@@ -1,0 +1,39 @@
+
+
+#Week 7: GEE
+---
+title: "Learning Diary:GEE"
+author: "Wenlong Lian"
+date: "2024-02-29"
+output: html_document
+---
+
+
+# Summary
+
+In the remotely sensing course, I explored various aspects of remote sensing and its applications, particularly focusing on texture measures in surface reflectance. The course introduced the concept of texture measures and their significance in remote sensing data analysis. Key points from the course include:
+
+- **Texture Measures**: The course detailed how texture measures can be computed from remote sensing data, emphasizing the importance of integer values for the `glcmTexture()` function. This is crucial for analyzing surface reflectance data, which typically involves converting reflectance values to binary forms to compute texture.
+- **Surface Reflectance Layer**: Adding a clipped surface reflectance layer to maps highlight the method to query individual pixels using the inspector tab. This process is vital for understanding the spatial distribution of surface features.
+- **Data Selection and Processing**: The course covered the selection of data using regular expressions to extract contrast and dissimilarity, and the addition of original bands back into the image collection for comprehensive analysis.
+
+# Application
+
+The application of remote sensing and texture measures in literature reveals a diverse range of studies leveraging these methods for environmental and agricultural analysis. Three notable examples include:
+
+1. **Urban Tree Mapping**: Launeau et al. (2017) utilized airborne hyperspectral mapping to accurately map trees in urban areas, employing narrow spectral bands to detect oxygen and water content for atmospheric effect correction. This study give exampke about the application of texture measures and surface reflectance for detailed urban vegetation analysis ([Launeau et al., 2017](https://dx.doi.org/10.1080/01431161.2017.1285080)).
+
+2. **Topographic Correction in Remote Sensing**: Roupioz et al. (2014) developed a method to correct topographic effects on radiance measured by satellites, using sub-pixel topography to improve the accuracy of land surface reflectance estimates. This research highlights the innovation in enhancing remote sensing data accuracy through advanced topographic modeling ([Roupioz et al., 2014](https://dx.doi.org/10.3390/rs61110356)).
+
+3. **Agricultural Yield Estimation**: Feng et al. (2022) compared winter wheat yield estimation models based on near-surface and UAV hyperspectral remote sensing data, using vegetation indices and red-edge parameters. This study demonstrates the potential of integrating texture measures with other remote sensing parameters for precise agricultural monitoring ([Feng et al., 2022](https://dx.doi.org/10.3390/rs14174158)).
+
+# Reflection
+
+Reflecting on this session, I've gained a deeper understanding of the intricacies involved in remote sensing, especially the computation and application of texture measures in analyzing surface reflectance data. The course's practical, through the use of Google Earth Engine and the emphasis on data processing techniques, has significantly enhanced my analytical skills. I've learned the importance of detailed data selection and the potential of remote sensing in urban planning, environmental monitoring, and agricultural management.
+
+
+# Reference
+
+- Launeau, P., Kassouk, Z., Debaine, F., Roy, R., Mestayer, P., Boulet, C., Rouaud, J., & Giraud, M. (2017). Airborne hyperspectral mapping of trees in an urban area. *International Journal of Remote Sensing*, 38(8-10), 2391-2410. https://dx.doi.org/10.1080/01431161.2017.1285080
+- Roupioz, L., Nerry, F., Jia, L., & Menenti, M. (2014). Improved Surface Reflectance from Remote Sensing Data with Sub-Pixel Topographic Information. *Remote Sensing*, 6(11), 10356. https://dx.doi.org/10.3390/rs61110356
+- Feng, H., Tao, H., Fan, Y., Liu, Y., Li, Z., Yang, G., & Zhao, C. (2022). Comparison of Winter Wheat Yield Estimation Based on Near-Surface Hyperspectral and UAV Hyperspectral Remote Sensing Data. *Remote Sensing*, 14(17), 4158. https://dx.doi.org/10.3390/rs14174158

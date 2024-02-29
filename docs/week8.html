@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Wenlong Lian">
-<meta name="dcterms.date" content="2024-01-22">
 
-<title>Learning Diary</title>
+<title>Learning Diary - 9&nbsp; week8: classification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week1.html" rel="next">
+<link href="./references.html" rel="next">
+<link href="./week7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Self Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week8.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Self Introduction</span></span></a>
   </div>
 </li>
@@ -157,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week8.html" class="sidebar-item-text sidebar-link">
+  <a href="./week8.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></span></a>
   </div>
 </li>
@@ -177,14 +176,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome-to-my-learning-diary" id="toc-welcome-to-my-learning-diary" class="nav-link active" data-scroll-target="#welcome-to-my-learning-diary"><span class="header-section-number">1</span> Welcome to My Learning Diary</a>
+  <li><a href="#week-8-classification" id="toc-week-8-classification" class="nav-link active" data-scroll-target="#week-8-classification"><span class="header-section-number">10</span> Week 8: classification</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">11</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#about-this-diary" id="toc-about-this-diary" class="nav-link" data-scroll-target="#about-this-diary"><span class="header-section-number">1.1</span> About This Diary</a>
-  <ul class="collapse">
-  <li><a href="#visualizing-concepts" id="toc-visualizing-concepts" class="nav-link" data-scroll-target="#visualizing-concepts"><span class="header-section-number">1.1.1</span> Visualizing Concepts</a></li>
-  <li><a href="#what-to-expect" id="toc-what-to-expect" class="nav-link" data-scroll-target="#what-to-expect"><span class="header-section-number">1.1.2</span> What to Expect</a></li>
+  <li><a href="#lecture-6-classification" id="toc-lecture-6-classification" class="nav-link" data-scroll-target="#lecture-6-classification"><span class="header-section-number">11.1</span> Lecture 6: Classification</a></li>
+  <li><a href="#lecture-7-classification-and-accuracy" id="toc-lecture-7-classification-and-accuracy" class="nav-link" data-scroll-target="#lecture-7-classification-and-accuracy"><span class="header-section-number">11.2</span> Lecture 7: Classification and Accuracy</a></li>
   </ul></li>
-  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">12</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">13</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">14</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -193,26 +193,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning Diary</h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Wenlong Lian </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 22, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -222,34 +210,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-my-learning-diary" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome to My Learning Diary</h1>
-<section id="about-this-diary" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="about-this-diary"><span class="header-section-number">1.1</span> About This Diary</h2>
-<p>This diary is a journey through my exploration of Remote Sensing. It’s a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.</p>
-<section id="visualizing-concepts" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="visualizing-concepts"><span class="header-section-number">1.1.1</span> Visualizing Concepts</h3>
-<p>One of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/brain.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>The Brain of Remote Sensing</figcaption>
-</figure>
-</div>
+<section id="week-8-classification" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Week 8: classification</h1>
 </section>
-<section id="what-to-expect" class="level3" data-number="1.1.2">
-<h3 data-number="1.1.2" class="anchored" data-anchor-id="what-to-expect"><span class="header-section-number">1.1.2</span> What to Expect</h3>
-<p>In this diary, you’ll find:</p>
+<section id="summary" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Summary</h1>
+<p>This week, we delved into the critical aspects of <strong>Classification</strong> in remotely sensing cities and environments. We have two lectures this week, about <em>Classification and Accuracy</em>, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.</p>
+<section id="lecture-6-classification" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="lecture-6-classification"><span class="header-section-number">11.1</span> Lecture 6: Classification</h2>
+<p>The lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.</p>
+</section>
+<section id="lecture-7-classification-and-accuracy" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="lecture-7-classification-and-accuracy"><span class="header-section-number">11.2</span> Lecture 7: Classification and Accuracy</h2>
+<p>Continuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the <em>METHODS</em> in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.</p>
+</section>
+</section>
+<section id="application" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Application</h1>
+<p>In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by Jenerowicz et al.&nbsp;(2018) utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, Alzahrani and Kanan (2022) applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by Chen (2021) explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.</p>
+</section>
+<section id="reflection" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Reflection</h1>
+<p>Reflecting on the remote sensing course, I’ve gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied? I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions.</p>
+</section>
+<section id="reference" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Reference</h1>
 <ul>
-<li><strong>Weekly Reflections</strong>: My thoughts and reflections on what I’ve learned each week.</li>
-<li><strong>Project Highlights</strong>: Overviews of projects and assignments, showcasing applications of remote sensing.</li>
-<li><strong>Resource Reviews</strong>: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.</li>
+<li>Jenerowicz et al.&nbsp;(2018): <a href="https://dx.doi.org/10.1117/12.2325809">Data fusion for high accuracy classification of urban areas</a></li>
+<li>Alzahrani and Kanan (2022): <a href="https://dx.doi.org/10.1155/2022/5190193">Machine Learning Approaches for Developing Land Cover Mapping</a></li>
+<li>Chen (2021): <a href="https://dx.doi.org/10.1145/3510858.3511007">Remote Sensing Image Classification Based on Fuzzy RBF Neural Network Combine with Genetic Algorithm</a></li>
 </ul>
-<p>Stay tuned as I embark on this enlightening journey into the world of remote sensing.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -642,10 +634,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./week7.html" class="pagination-link  aria-label=" &lt;span="" diary:gee&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week1.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Week1: Introduction to Remote Sensing</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week1: Introduction to Remote Sensing</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
