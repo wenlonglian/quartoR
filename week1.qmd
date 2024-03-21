@@ -6,17 +6,29 @@ output: html_document
 
 # Summary
 
-The course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:
+  The course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:
 
-- Understanding the differences between Landsat and Sentinel data.
-- Performing basic raster image statistics and processing.
-- Evaluating the advantages and disadvantages of each type of software used.
-- Extracting and comparing spectral signatures.
-
-
+- *Understanding the differences between Landsat and Sentinel data.*
+- *Performing basic raster image statistics and processing.*
+- *Evaluating the advantages and disadvantages of each type of software used.*
+- *Extracting and comparing spectral signatures.*
 
 
 ![SNAP interface](https://andrewmaclachlan.github.io/CASA0023/prac_1/sentinel_data_cape_town_TCI.png)
+
+## Practical Result
+  
+  First week, we got to handle RS data with different **softwares**, run the whole general process of dealing with data. 
+- Source, load and articulate the differences between Landsat and Sentinel data
+- Undertake basic raster image statistics and processing
+- Evaluate the (dis)advantages of each type of software you have used
+- Pull out and statistically compare spectral signature
+
+
+  WHat is done is basically clipping data and exploring spectral signatures with different data source.
+![spectral profile for Sentinel](output/week1/spectral profile for Sentinel.png){width=100%}
+![density histogram for each landtype](output/week1/density histogram for each landtype.png){width=100%}
+
 
 
 # Application
@@ -27,16 +39,11 @@ The course content introduces the fundamentals of remote sensing, focusing on th
 
 3. **Agriculture and Crop Monitoring** [Zhang et al., 2016](https://www.sciencedirect.com/science/article/pii/S0034425716302465) used both Landsat and Sentinel-2 data to monitor crop health and predict agricultural outputs. The study focused on satellite-based climate data records to observe crop phenology, employing spectral analysis to assess vegetation health.
 
-
-- the reviewed studiesthe importance of spectral analysis and change detection in environmental monitoring.
-- The use of Sentinel and Landsat data as primary sources for remote sensing analysis is a common thread, highlighting their utility in tracking changes over time across various ecosystems.
-- Advanced techniques such as downscaling for super-resolution imaging and the application of spectral indices for enhanced analysis are discussed, showcasing the evolution of remote sensing methodologies.
-
-The studies reveal a progression from foundational remote sensing techniques towards more sophisticated and user-friendly analytical methods. Innovations in software and processing tools have expanded the capabilities of researchers to analyze and interpret environmental data, enhancing the accuracy and efficiency of remote sensing analyses.
+  The studies reveal a progression from foundational remote sensing techniques towards more sophisticated and user-friendly analytical methods. Innovations in software and processing tools have expanded the capabilities of researchers to analyze and interpret environmental data, enhancing the accuracy and efficiency of remote sensing analyses.
 
 # Reflection
 
-Throughout this session on remote sensing, I've learned the importance and application of satellite data in environmental monitoring. Understanding the differences between Landsat and Sentinel datasets and how to process these images in software like QGIS and SNAP has opened up new avenues for analyzing geographical information. The practical applications, from forest monitoring to urban planning, have shown me the vast potential of remote sensing data. Reflecting on this, I see immense value in applying these techniques to future projects, particularly in urban sustainability and climate change mitigation efforts. The resources provided, especially the detailed instructions for data processing, have enriched my understanding and skills in remote sensing, paving the way for innovative research and application in my future work.
+  Throughout this session on remote sensing, I've learned the importance and application of satellite data in environmental monitoring. Understanding the differences between Landsat and Sentinel datasets and how to process these images in software like QGIS and SNAP has opened up new avenues for analyzing geographical information. The practical applications, from forest monitoring to urban planning, have shown me the vast potential of remote sensing data. Reflecting on this, I see immense value in applying these techniques to future projects, particularly in urban sustainability and climate change mitigation efforts. The resources provided, especially the detailed instructions for data processing, have enriched my understanding and skills in remote sensing.
 
 # References
 

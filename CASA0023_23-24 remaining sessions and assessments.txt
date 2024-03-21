@@ -1,0 +1,56 @@
+发件人:	Andrew Maclachlan (via UCL Moodle) <a.maclachlan@ucl.ac.uk>
+发送时间:	2024年3月12日星期二 13:22
+收件人:	Lian, Wenlong
+主题:	CASA0023_23-24: remaining sessions and assessments
+
+后续标志:	Flag for follow up
+标记状态:	已标记
+
+CASA0023_23-24 ? Forums ? Announcements ? remaining sessions and 
+assessments 
+ 
+remaining sessions and assessments 
+by Andrew Maclachlan - Tuesday, 12 March 2024, 12:51 PM 
+  
+Hi everyone
+Sadly I am unwell today but Ollie will be giving the lecture at 1pm. 
+Several students have asked questions about the assessment and I have 
+addressed them below. Please read all of this message. 
+Learning diary
+For the learning diary entries we are expecting:
+*	week 1 - intro to remote sensing
+*	week 2 - short presentation - see practical book for requirements
+*	week 3 - corrections
+*	week 4 - policy - see practical book for requirements
+*	week 5 - no entry required
+reading week
+*	week 6 - intro to GEE
+*	week 7 - classification
+*	week 8 - classification 2
+*	week 9 - SAR or temperature (the practical is a choice between SAR 
+and temperature)
+*	week 10 - no entry required
+Re-read the marking scheme and assessment requirements! 
+The deadline is 5pm Friday 22nd March and this is again taken from the last 
+commit. You must not submit (commit and push) after this deadline. 
+Group presentations 
+Re-read the marking scheme and assessment requirements! 
+*	Groups will have 10 minutes only to present their pitch. I will stop you 
+at 10 minutes. Be under, or on time.
+*	It must use Quarto or Xaringan
+*	The submission will be the live presentation itself - you will present 
+either on Tuesday or Thursday. 
+*	We will take 2-3 questions per group (excluded from the 10 minutes). 
+The previous group will be required to propose at least 1 question. 
+*	Please can everyone complete this form by Friday (15th), so I know 
+who is in which group: https://forms.gle/7cQCMpcoSUjVA18M8
+*	I will divide the groups across our sessions on Tuesday and Thursday 
+next week and publish a schedule. I expect everyone to respect each 
+other's work and commitment by attending both sessions.  
+Please ask any questions on slack. 
+ 
+Andy 
+
+See this post in context 
+ 
+Change your forum digest preferences 

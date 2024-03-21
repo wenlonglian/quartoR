@@ -1,39 +1,51 @@
 ---
-title: "week8: classification"
-format: html
-editor: visual
+title: "week8: Classification and Accuracy"
+output: html_document
 ---
-
-# Week 8: classification
-
 
 
 # Summary
+Continuing from Lecture 7, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the **METHODS** in accurately classifying like Subpixels, OBIA, interpreting remote sensing data.
 
-This week, we delved into the critical aspects of **Classification** in remotely sensing cities and environments. We have two lectures this week, about *Classification and Accuracy*, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.
+## Accuracy assessment includes several points
+- how to assess different type of **image analysis** (superpicel, pixels, mixels (mixed pixel), mixed objects)
+- What data should be used to assess accuracy(best approach-cross validation)
+- how to assess?(Error matrix, Kappa)
 
-## Lecture 6: Classification
 
-The lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.
+## practical result
+  The second lesson, delved into different clustering methods and different object types classification. It introduce different image analysis rules(OBIA), subpixels....And what we are doing in this practical is to compare the difference between subpixel and OBIA.
+  
+  Specific explaination and how they should be matched to appropriate classification method. It introduced me to k-means clustering and Simple Non-Iterative Clustering (SNIC) as methods to reduce pixel data into more manageable objects for classification.
+  
+![subpixel_classify](output/week7/subpixel_classify.png)  
 
-## Lecture 7: Classification and Accuracy
+![spectral_gradient](output/week7/spectral_gradient.png) 
 
-Continuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the *METHODS* in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.
+![NDVI](output/week7/NDVI.png) 
+
+  
+  
+  But in fact,I think the practical introduction could be more **specific**, there are some points could be ambiguous.Like defining the end member.
+  
+![error](output/week7/error.png)
+
+
 
 # Application
 
-In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by Jenerowicz et al. (2018) utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, Alzahrani and Kanan (2022) applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by Chen (2021) explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.
-
+  In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by [Jenerowicz et al. (2018)](https://dx.doi.org/10.1117/12.2325809) utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, [Alzahrani and Kanan (2022)](https://dx.doi.org/10.1155/2022/5190193) applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by [Chen (2021)](https://dx.doi.org/10.1145/3510858.3511007) explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.
 
 
 # Reflection
 
-Reflecting on the remote sensing course, I've gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied?  I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions. 
+In this week, we explored the whole process of data classification, not only the mothods, but also how to validate its accuracy, what should we concern about,spatial correlation?A bit familiar to GIS...I think it's a useful week that can be really used in project.However, the practical only include the classfying methods, and we dont have chance to know how to validate it in software,and the codes??Look forward to more details!!
+
+The advancements in classifying methods in images, coupled with the development of sophisticated analysis techniques, present exciting opportunities for environmental science.
 
 # Reference
 
 
-- Jenerowicz et al. (2018): [Data fusion for high accuracy classification of urban areas](https://dx.doi.org/10.1117/12.2325809)
-- Alzahrani and Kanan (2022): [Machine Learning Approaches for Developing Land Cover Mapping](https://dx.doi.org/10.1155/2022/5190193)
-- Chen (2021): [Remote Sensing Image Classification Based on Fuzzy RBF Neural Network Combine with Genetic Algorithm](https://dx.doi.org/10.1145/3510858.3511007)
-
+-   Jenerowicz et al. (2018): [Data fusion for high accuracy classification of urban areas](https://dx.doi.org/10.1117/12.2325809)
+-   Alzahrani and Kanan (2022): [Machine Learning Approaches for Developing Land Cover Mapping](https://dx.doi.org/10.1155/2022/5190193)
+-   Chen (2021): [Remote Sensing Image Classification Based on Fuzzy RBF Neural Network Combine with Genetic Algorithm](https://dx.doi.org/10.1145/3510858.3511007)

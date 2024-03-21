@@ -133,31 +133,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week4 Policy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week5: Temperature and Policy</span></span></a>
+  <a href="./readingweek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week6: GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Week9: SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -213,6 +219,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Data Joining and Enhancement</strong>: Techniques such as feathering and image enhancement are discussed. These methods improve the visual quality of satellite images, making them more suitable for analysis and interpretation.</p></li>
 <li><p><strong>How to use tool</strong>: The session introduced various tools and methods used in remote sensing, including the use of multispectral and radar satellite imagery for biodiversity monitoring and conservation science.</p></li>
 </ul>
+<p><strong>Practical Result</strong></p>
+<p>This week, we settle down to correct raw satelliteimagery with Dark Object Subtraction (DOS) - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <msub> <mi>ρ</mi> <mrow data-mjx-texclass="ORD"> <mi>λ</mi> </mrow> </msub> <mo>=</mo> <mfrac> <mrow> <mo stretchy="false">(</mo> <mi>L</mi> <mi>s</mi> <mi>a</mi> <msub> <mi>t</mi> <mrow data-mjx-texclass="ORD"> <mi>r</mi> <mi>a</mi> <mi>d</mi> </mrow> </msub> <mo>−</mo> <mi>L</mi> <mi>h</mi> <mi>a</mi> <mi>z</mi> <mi>e</mi> <mn>1</mn> <mi>p</mi> <mi>e</mi> <mi>r</mi> <mi>c</mi> <mi>e</mi> <mi>n</mi> <msub> <mi>t</mi> <mrow data-mjx-texclass="ORD"> <mi>r</mi> <mi>a</mi> <mi>d</mi> </mrow> </msub> <mo stretchy="false">)</mo> <mi>π</mi> <mo>∗</mo> <msup> <mi>d</mi> <mn>2</mn> </msup> </mrow> <mrow> <mi>E</mi> <msub> <mi>O</mi> <mrow data-mjx-texclass="ORD"> <mi>λ</mi> </mrow> </msub> <mo>∗</mo> <mi>c</mi> <mi>o</mi> <mi>s</mi> <mi>θ</mi> <mi>S</mi> <mo>∗</mo> <mi>T</mi> <mi>U</mi> <mi>A</mi> <mi>v</mi> <mo>+</mo> <mi>T</mi> <mi>A</mi> <mi>U</mi> <mi>z</mi> </mrow> </mfrac> </math> - We can use this formula to correct atmospheric effects, and relating parameters can be included in U.S. Analysis Read Dataset (ARD) that includes a bundle of data (Top of Atmosphere (TOA) reflectance, TOA Brightness Temperature, Surface Reflectance , Surface Temperature and Quality Assessment) in a specific US grid strucutre.</p>
+<ul>
+<li>Then still focus on spectral characteristic, we try to detect specific area based on their spectral trait. Cretain formular for each type of landuse.PCA is also used to reduce the dimensionality and Transform multi-spectral data into uncorrelated and smaller dataset</li>
+</ul>
+<p><img src="output/correction/output/PCA_band4.png" class="img-fluid" style="width:100.0%" alt="PCA_band4_character"> <img src="output/correction/output/SHV_DN.png" class="img-fluid" style="width:100.0%" alt="SHV_DN"> <img src="output/correction/output/texture.png" class="img-fluid" style="width:100.0%" alt="texture plot"></p>
 </section>
 <section id="application" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="application"><span class="header-section-number">4.2</span> Application</h2>
@@ -635,8 +647,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week4.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Week4 Policy</span>">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week4 Policy</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week4.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>week4: Policy</span>">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

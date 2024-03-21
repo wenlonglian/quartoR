@@ -1,0 +1,50 @@
+---
+title: "Week9: SAR"
+format: html
+---
+
+# Summary
+
+  This week's lecture introduced us to the fascinating world of **Synthetic Aperture Radar **(SAR) data, a powerful tool in remote sensing. SAR technology enables the capture of high-resolution images of the Earth's surface, regardless of weather conditions or time of day. 
+
+  Its most advantage is thata it can see through clouds unlike optical sensors.We could use SAR to check the temporal difference by ratio the image. What we used in practical is mean ratio.Then validation and fusing data are also useful.
+
+## Practical Result
+
+This week, we've done an interesting SAR project **detecting change resulting from the 2020 explosion** in the port of Beirut, we created a custom change detection algorithm that conducts a pixelwise t-test.the analysis is explicit and useful.And I think use a specific case is more understandable than just run a coding process without a specific target.
+
+![change pre-post](output/week9/change pre-post.png)
+
+![damage buildings](output/week9/damage buildings.png)
+
+
+
+
+# Application
+
+Synthetic Aperture Radar (SAR) has emerged as a pivotal technology in remote sensing, offering unparalleled capabilities in observing the Earth's surface under any weather conditions and at all times. This literature review delves into **recent advancements and applications** of SAR in remote sensing, highlighting the innovative methodologies and their implications for various fields which aboaden our views to **different fields** could SAR be applied to apart from war destructions.
+
+
+- F. Cigna et al. (2023) demonstrate the application of SAR in **archaeological prospection and heritage site protection**. Utilizing medium to very high-resolution imagery, the study highlights SAR's capability in detecting buried archaeological features and assessing threats to cultural heritage, thereby contributing to the conservation of archaeological sites ([Cigna et al., 2023](https://consensus.app/papers/exploiting-prospection-heritage-site-protection-cigna/10c56f137a3a58d5af31c3620847200d/)).
+
+**(Similar to our practical)**
+
+- Minhwa Kim et al. (2023) address the challenge of **detecting earthquake-induced building damages** using temporal SAR data with different observation modes. Their contextual change analysis method, based on novel textural features, showcases the adaptability of SAR in disaster response, particularly in earthquake-affected areas ([Kim et al., 2023](https://consensus.app/papers/detection-damaged-buildings-using-temporal-data-kim/ea79ee0f00ad5a71ae037ada547c723c/)).
+
+- Sang-Eun Park et al. (2020) focus on the detection of **earthquake-induced building damages** using polarimetric SAR data. Their study evaluates the practical applicability of polarimetric observations for damage assessment, proposing a novel change detection method that significantly enhances the detection accuracy of damaged areas ([Park et al., 2020](https://consensus.app/papers/detection-earthquakeinduced-building-damages-using-park/ac6ae08102b958a78382649cbbb855d3/)).
+
+These studies collectively illustrate the versatility and innovation in SAR applications, from enhancing image readability and archaeological prospection to disaster response and damage assessment. The integration of advanced algorithms and deep learning techniques with SAR data opens new avenues for remote sensing applications, promising greater accuracy and efficiency in environmental monitoring, cultural heritage protection, and disaster management.
+
+
+# Reflection
+
+Reflecting on this session, I'm amazed at the breadth of applications for SAR data in remote sensing.ALthough in the Xaringen session, I've made an introduction of SAR myself. But its application still taught me a lot about how it actually runs. The ability to capture detailed images under any weather conditions opens up new avenues for research and practical applications.  It's clear that SAR technology will continue to play a pivotal role in our efforts to monitor and understand the Earth's surface. And it's also the first time we go through whole process of practical application, especially it's a topic that we all concern about.
+
+# Reference
+
+Cigna, F., Balz, T., Tapete, D., Caspari, G., Fu, B., Abballe, M., & Jiang, H. (2023). Exploiting satellite SAR for archaeological prospection and heritage site protection. Geo-spatial Information Science. DOI: 10.1080/10095020.2023.2223603.
+
+Kim, M., Park, S.-E., & Lee, S.-J. (2023). Detection of Damaged Buildings Using Temporal SAR Data with Different Observation Modes. Remote Sensing, 15, 308. DOI: 10.3390/rs15020308.
+
+Park, S.-E., & Jung, Y. (2020). Detection of Earthquake-Induced Building Damages Using Polarimetric SAR Data. Remote Sensing, 12, 137. DOI: 10.3390/rs12010137.
+

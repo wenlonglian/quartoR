@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Diary - 9&nbsp; week8: classification</title>
+<title>Learning Diary - 9&nbsp; week8: Classification and Accuracy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./week9.html" rel="next">
 <link href="./week7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week8.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week8.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -133,31 +133,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week4 Policy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="./readingweek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week6: GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Week9: SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -176,15 +182,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#week-8-classification" id="toc-week-8-classification" class="nav-link active" data-scroll-target="#week-8-classification"><span class="header-section-number">10</span> Week 8: classification</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">11</span> Summary</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">10</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#lecture-6-classification" id="toc-lecture-6-classification" class="nav-link" data-scroll-target="#lecture-6-classification"><span class="header-section-number">11.1</span> Lecture 6: Classification</a></li>
-  <li><a href="#lecture-7-classification-and-accuracy" id="toc-lecture-7-classification-and-accuracy" class="nav-link" data-scroll-target="#lecture-7-classification-and-accuracy"><span class="header-section-number">11.2</span> Lecture 7: Classification and Accuracy</a></li>
+  <li><a href="#accuracy-assessment-includes-several-points" id="toc-accuracy-assessment-includes-several-points" class="nav-link" data-scroll-target="#accuracy-assessment-includes-several-points"><span class="header-section-number">10.1</span> Accuracy assessment includes several points</a></li>
+  <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">10.2</span> practical result</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">12</span> Application</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">13</span> Reflection</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">14</span> Reference</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">11</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">12</span> Reflection</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">13</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -193,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></h1>
 </div>
 
 
@@ -210,31 +215,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="week-8-classification" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> Week 8: classification</h1>
+<section id="summary" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Summary</h1>
+<p>Continuing from Lecture 7, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the <strong>METHODS</strong> in accurately classifying like Subpixels, OBIA, interpreting remote sensing data.</p>
+<section id="accuracy-assessment-includes-several-points" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="accuracy-assessment-includes-several-points"><span class="header-section-number">10.1</span> Accuracy assessment includes several points</h2>
+<ul>
+<li>how to assess different type of <strong>image analysis</strong> (superpicel, pixels, mixels (mixed pixel), mixed objects)</li>
+<li>What data should be used to assess accuracy(best approach-cross validation)</li>
+<li>how to assess?(Error matrix, Kappa)</li>
+</ul>
 </section>
-<section id="summary" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> Summary</h1>
-<p>This week, we delved into the critical aspects of <strong>Classification</strong> in remotely sensing cities and environments. We have two lectures this week, about <em>Classification and Accuracy</em>, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.</p>
-<section id="lecture-6-classification" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="lecture-6-classification"><span class="header-section-number">11.1</span> Lecture 6: Classification</h2>
-<p>The lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.</p>
+<section id="practical-result" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">10.2</span> practical result</h2>
+<p>The second lesson, delved into different clustering methods and different object types classification. It introduce different image analysis rules(OBIA), subpixels….And what we are doing in this practical is to compare the difference between subpixel and OBIA.</p>
+<p>Specific explaination and how they should be matched to appropriate classification method. It introduced me to k-means clustering and Simple Non-Iterative Clustering (SNIC) as methods to reduce pixel data into more manageable objects for classification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week7/subpixel_classify.png" class="img-fluid figure-img"></p>
+<figcaption>subpixel_classify</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week7/spectral_gradient.png" class="img-fluid figure-img"></p>
+<figcaption>spectral_gradient</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week7/NDVI.png" class="img-fluid figure-img"></p>
+<figcaption>NDVI</figcaption>
+</figure>
+</div>
+<p>But in fact,I think the practical introduction could be more <strong>specific</strong>, there are some points could be ambiguous.Like defining the end member.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week7/error.png" class="img-fluid figure-img"></p>
+<figcaption>error</figcaption>
+</figure>
+</div>
 </section>
-<section id="lecture-7-classification-and-accuracy" class="level2" data-number="11.2">
-<h2 data-number="11.2" class="anchored" data-anchor-id="lecture-7-classification-and-accuracy"><span class="header-section-number">11.2</span> Lecture 7: Classification and Accuracy</h2>
-<p>Continuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the <em>METHODS</em> in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.</p>
 </section>
+<section id="application" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Application</h1>
+<p>In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by <a href="https://dx.doi.org/10.1117/12.2325809">Jenerowicz et al.&nbsp;(2018)</a> utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, <a href="https://dx.doi.org/10.1155/2022/5190193">Alzahrani and Kanan (2022)</a> applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by <a href="https://dx.doi.org/10.1145/3510858.3511007">Chen (2021)</a> explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.</p>
 </section>
-<section id="application" class="level1" data-number="12">
-<h1 data-number="12"><span class="header-section-number">12</span> Application</h1>
-<p>In exploring the application of remote sensing classification and accuracy, several studies have demonstrated innovative uses of these methods. For instance, a study by Jenerowicz et al.&nbsp;(2018) utilized satellite imagery classification to monitor urban areas in Warsaw, Poland, showcasing the potential of remote sensing in environmental conservation efforts. Similarly, Alzahrani and Kanan (2022) applied these techniques to urban planning, enabling the detailed analysis of urban sprawl and its impact on local ecosystems. Lastly, a groundbreaking study by Chen (2021) explored the accuracy of remote sensing data in predicting environmental changes, highlighting the importance of precision in environmental disaster management. These examples illustrate the versatility and critical importance of remote sensing classification and accuracy across various fields, from environmental conservation to urban planning and disaster management. The innovative approaches adopted in these studies reflect both the capabilities and the ongoing development of remote sensing technologies, echoing the methodologies discussed in our course.</p>
+<section id="reflection" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Reflection</h1>
+<p>In this week, we explored the whole process of data classification, not only the mothods, but also how to validate its accuracy, what should we concern about,spatial correlation?A bit familiar to GIS…I think it’s a useful week that can be really used in project.However, the practical only include the classfying methods, and we dont have chance to know how to validate it in software,and the codes??Look forward to more details!!</p>
+<p>The advancements in classifying methods in images, coupled with the development of sophisticated analysis techniques, present exciting opportunities for environmental science.</p>
 </section>
-<section id="reflection" class="level1" data-number="13">
-<h1 data-number="13"><span class="header-section-number">13</span> Reflection</h1>
-<p>Reflecting on the remote sensing course, I’ve gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied? I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions.</p>
-</section>
-<section id="reference" class="level1" data-number="14">
-<h1 data-number="14"><span class="header-section-number">14</span> Reference</h1>
+<section id="reference" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Reference</h1>
 <ul>
 <li>Jenerowicz et al.&nbsp;(2018): <a href="https://dx.doi.org/10.1117/12.2325809">Data fusion for high accuracy classification of urban areas</a></li>
 <li>Alzahrani and Kanan (2022): <a href="https://dx.doi.org/10.1155/2022/5190193">Machine Learning Approaches for Developing Land Cover Mapping</a></li>
@@ -634,13 +667,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./week7.html" class="pagination-link  aria-label=" &lt;span="" diary:gee&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></span>
+      <a href="./week7.html" class="pagination-link  aria-label=" &lt;span="" classification&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week9.html" class="pagination-link" aria-label="<span class='chapter-number'>10</span>&nbsp; <span class='chapter-title'>Week9: SAR</span>">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Week9: SAR</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

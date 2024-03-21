@@ -64,7 +64,7 @@
     "href": "week2.html#reflection",
     "title": "3  week2： Xaringen and Quarto",
     "section": "4.2 Reflection",
-    "text": "4.2 Reflection\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included.",
+    "text": "4.2 Reflection\nThis week is a challenge to use new tool to produce presentation, Xaringen and Quarto. Amazing to know this advanced skill which can help my job hunting. Though I find it a bit hard to use.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2： Xaringen and Quarto</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "week3.html",
     "title": "4  Week3: Correction",
     "section": "",
-    "text": "4.1 Summary\nThis session introduced the fundamentals and applications of remote sensing in urban and environmental contexts, focusing on data corrections, data joining, and enhancement techniques.Including:",
+    "text": "4.1 Summary\nThis session introduced the fundamentals and applications of remote sensing in urban and environmental contexts, focusing on data corrections, data joining, and enhancement techniques.Including:\nPractical Result\nThis week, we settle down to correct raw satelliteimagery with Dark Object Subtraction (DOS) -   ρ  λ   =   ( L s a  t  r a d   − L h a z e 1 p e r c e n  t  r a d   ) π ∗  d 2    E  O  λ   ∗ c o s θ S ∗ T U A v + T A U z    - We can use this formula to correct atmospheric effects, and relating parameters can be included in U.S. Analysis Read Dataset (ARD) that includes a bundle of data (Top of Atmosphere (TOA) reflectance, TOA Brightness Temperature, Surface Reflectance , Surface Temperature and Quality Assessment) in a specific US grid strucutre.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "week1.html",
     "title": "2  Week1: Introduction to Remote Sensing",
     "section": "",
-    "text": "3 Summary\nThe course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:\n\nUnderstanding the differences between Landsat and Sentinel data.\nPerforming basic raster image statistics and processing.\nEvaluating the advantages and disadvantages of each type of software used.\nExtracting and comparing spectral signatures.\n\n\n\n\nSNAP interface\n\n\n\n\n4 Application\n\nForest Monitoring Coppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. Remote Sensing Reviews, 13(3-4), 207-234. utilized Landsat data to track deforestation and forest degradation over time. The study employed digital change detection techniques to analyze temporal variations in forest ecosystems.\nUrban Expansion Esch et al., 2017 applied Sentinel data to assess urban sprawl and its environmental impacts. This study leveraged high-resolution imagery to map human settlements and analyze urban footprint expansion globally.\nAgriculture and Crop Monitoring Zhang et al., 2016 used both Landsat and Sentinel-2 data to monitor crop health and predict agricultural outputs. The study focused on satellite-based climate data records to observe crop phenology, employing spectral analysis to assess vegetation health.\n\n\nthe reviewed studiesthe importance of spectral analysis and change detection in environmental monitoring.\nThe use of Sentinel and Landsat data as primary sources for remote sensing analysis is a common thread, highlighting their utility in tracking changes over time across various ecosystems.\nAdvanced techniques such as downscaling for super-resolution imaging and the application of spectral indices for enhanced analysis are discussed, showcasing the evolution of remote sensing methodologies.\n\nThe studies reveal a progression from foundational remote sensing techniques towards more sophisticated and user-friendly analytical methods. Innovations in software and processing tools have expanded the capabilities of researchers to analyze and interpret environmental data, enhancing the accuracy and efficiency of remote sensing analyses.\n\n\n5 Reflection\nThroughout this session on remote sensing, I’ve learned the importance and application of satellite data in environmental monitoring. Understanding the differences between Landsat and Sentinel datasets and how to process these images in software like QGIS and SNAP has opened up new avenues for analyzing geographical information. The practical applications, from forest monitoring to urban planning, have shown me the vast potential of remote sensing data. Reflecting on this, I see immense value in applying these techniques to future projects, particularly in urban sustainability and climate change mitigation efforts. The resources provided, especially the detailed instructions for data processing, have enriched my understanding and skills in remote sensing, paving the way for innovative research and application in my future work.\n\n\n6 References\n\nCoppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. Remote Sensing Reviews, 13(3-4), 207-234.\nEsch, T., et al. (2017). Breaking new ground in mapping human settlements from space – The Global Urban Footprint. ISPRS Journal of Photogrammetry and Remote Sensing, 134, 30-42.\nZhang, X., et al. (2016). Monitoring crop phenology using a satellite-based Climate Data Record. Remote Sensing of Environment, 185, 143-155.\nMacLachlan, A. (2024). CASA0023 Remotely Sensing Cities and Environments - 1 Getting started with remote sensing. Retrieved from https://andrewmaclachlan.github.io/CASA0023/intro.html",
+    "text": "3 Summary\nThe course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week1: Introduction to Remote Sensing</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "index.html#about-this-diary",
     "title": "Learning Diary",
     "section": "1.1 About This Diary",
-    "text": "1.1 About This Diary\nThis diary is a journey through my exploration of Remote Sensing. It’s a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.\n\n1.1.1 Visualizing Concepts\nOne of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.\n\n\n\nThe Brain of Remote Sensing\n\n\n\n\n1.1.2 What to Expect\nIn this diary, you’ll find:\n\nWeekly Reflections: My thoughts and reflections on what I’ve learned each week.\nProject Highlights: Overviews of projects and assignments, showcasing applications of remote sensing.\nResource Reviews: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.\n\nStay tuned as I embark on this enlightening journey into the world of remote sensing.",
+    "text": "1.1 About This Diary\nThis diary is a journey through my exploration of Remote Sensing. It’s a collection of insights, challenges, and breakthroughs as I delve into the fascinating world of observing our planet from above.Each week’s diary would contain four chapters: summary, application, reflection and reference.\n\n1.1.1 Visualizing Concepts\nOne of the most captivating aspects of remote sensing is the ability to visualize data in ways that reveal insights about our world. the complex processing and analysis that goes into understanding our planet.\n\n\n\nThe Brain of Remote Sensing\n\n\n\n\n1.1.2 What to Expect\nIn this diary, you’ll find:\n\nProject Highlights: Summary of projects and practical, showcasing applications of remote sensing.\nRelating Literature: Literature review relating to the methods and application about the topic we mentioned weekly\nWeekly Reflections: My thoughts and reflections on what I’ve learned each week.\nResource Reviews: Discussions of valuable resources, tools, and readings that have enhanced my learning experience.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Self Introduction</span>"
     ]
@@ -184,7 +184,7 @@
     "href": "week3.html#summary",
     "title": "4  Week3: Correction",
     "section": "",
-    "text": "Remote Sensing Data and Corrections: It covers geometric, atmospheric, orthorectification/topographic, and radiometric corrections. These corrections are crucial for preparing the data for accurate analysis by correcting distortions and errors introduced during data acquisition.\nData Joining and Enhancement: Techniques such as feathering and image enhancement are discussed. These methods improve the visual quality of satellite images, making them more suitable for analysis and interpretation.\nHow to use tool: The session introduced various tools and methods used in remote sensing, including the use of multispectral and radar satellite imagery for biodiversity monitoring and conservation science.",
+    "text": "Remote Sensing Data and Corrections: It covers geometric, atmospheric, orthorectification/topographic, and radiometric corrections. These corrections are crucial for preparing the data for accurate analysis by correcting distortions and errors introduced during data acquisition.\nData Joining and Enhancement: Techniques such as feathering and image enhancement are discussed. These methods improve the visual quality of satellite images, making them more suitable for analysis and interpretation.\nHow to use tool: The session introduced various tools and methods used in remote sensing, including the use of multispectral and radar satellite imagery for biodiversity monitoring and conservation science.\n\n\n\n\nThen still focus on spectral characteristic, we try to detect specific area based on their spectral trait. Cretain formular for each type of landuse.PCA is also used to reduce the dimensionality and Transform multi-spectral data into uncorrelated and smaller dataset",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week3: Correction</span>"
     ]
@@ -192,11 +192,11 @@
   {
     "objectID": "week4.html",
     "href": "week4.html",
-    "title": "Week4 Policy",
+    "title": "5  week4: Policy",
     "section": "",
-    "text": "6 Summary\nIn Lecture 4, we delved into the practical applications of remote sensing in policy-making. The lecture covered several key points, emphasizing how remote sensing data can inform and guide policy decisions in various sectors. The points included:\n\nThe Role of Remote Sensing in Environmental Monitoring: Remote sensing technologies are crucial in monitoring environmental changes, such as deforestation, urban sprawl, and the impacts of climate change.\nApplications in Urban Planning: The lecture highlighted how remote sensing data supports urban planning by providing detailed land use and land cover maps. This aids in the efficient allocation of resources, urban expansion planning, and infrastructure development.\nDisaster Management and Response: Remote sensing plays a vital role in disaster management by offering timely data on areas affected by natural disasters. This information is essential for quick response, resource allocation, and planning recovery efforts.\nAgricultural Policies: The use of remote sensing in agriculture was discussed, particularly in monitoring crop health, predicting yields, and managing water resources. Such data are invaluable for formulating agricultural policies that aim to enhance food security.\n\n\n\n7 Application\nIn exploring the application of remote sensing data in policy-making, I turned to scholarly literature to find examples of how these methods have been utilized in research and policy development. Here are three studies that demonstrate the practical application of remote sensing data:\n\nEnvironmental Conservation: A study by Smith et al. (2020) utilized remote sensing data to monitor deforestation rates in the Amazon. By analyzing satellite images, they were able to identify areas of rapid deforestation, contributing to the development of targeted conservation policies.\nUrban Planning: Johnson and Wilson (2018) employed remote sensing data to assess urban sprawl in major European cities. Their analysis provided insights into urban growth patterns, informing urban planning policies aimed at sustainable development.\nAgricultural Management: In the context of agriculture, Lee and Kim (2019) used remote sensing to estimate crop yields in the Midwest United States. Their findings have been instrumental in shaping agricultural policies to ensure food security and efficient resource use.\n\nThese studies highlight the versatility and innovation of remote sensing methods in addressing policy-related issues. Compared to the methods discussed in the lecture, these examples showcase the practical implementation and impact of remote sensing data in real-world scenarios.\n\n\n8 Reflection\nReflecting on Lecture 4, “Policy Applications,” I am fascinated by the potential of remote sensing data to influence policy-making across various sectors. The ability to monitor environmental changes, urban development, and agricultural productivity from a distance offers a powerful tool for informed decision-making. This lecture has broadened my understanding of the practical applications of remote sensing and its significance in shaping policies that affect our environment and society.\n\n\n9 Reference\n\nSmith et al. (2020). “Monitoring Deforestation in the Amazon: A Remote Sensing Approach.” Journal of Environmental Management.\nJohnson and Wilson (2018). “Assessing Urban Sprawl Using Remote Sensing Data.” Urban Planning Journal.\nLee and Kim (2019). “Estimating Crop Yields with Remote Sensing Data.” Agricultural Sciences Journal.",
+    "text": "6 Summary",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4 Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
     ]
   },
   {
@@ -222,11 +222,11 @@
   {
     "objectID": "week6.html",
     "href": "week6.html",
-    "title": "7  Reding week",
+    "title": "7  Week6: GEE",
     "section": "",
-    "text": "8 READING WEEK!!!",
+    "text": "8 Summary\nThis week’s lecture introduced a new remote server tool- Google Earth Engine(GEE).Several parts are included:",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Reding week</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
     ]
   },
   {
@@ -242,11 +242,11 @@
   {
     "objectID": "week7.html",
     "href": "week7.html",
-    "title": "8  output: html_document",
+    "title": "8  week7: classification",
     "section": "",
-    "text": "#Week 7: GEE\n\ntitle: “Learning Diary:GEE” author: “Wenlong Lian” date: “2024-02-29”\n\n9 Summary\nIn the remotely sensing course, I explored various aspects of remote sensing and its applications, particularly focusing on texture measures in surface reflectance. The course introduced the concept of texture measures and their significance in remote sensing data analysis. Key points from the course include:\n\nTexture Measures: The course detailed how texture measures can be computed from remote sensing data, emphasizing the importance of integer values for the glcmTexture() function. This is crucial for analyzing surface reflectance data, which typically involves converting reflectance values to binary forms to compute texture.\nSurface Reflectance Layer: Adding a clipped surface reflectance layer to maps highlight the method to query individual pixels using the inspector tab. This process is vital for understanding the spatial distribution of surface features.\nData Selection and Processing: The course covered the selection of data using regular expressions to extract contrast and dissimilarity, and the addition of original bands back into the image collection for comprehensive analysis.\n\n\n\n10 Application\nThe application of remote sensing and texture measures in literature reveals a diverse range of studies leveraging these methods for environmental and agricultural analysis. Three notable examples include:\n\nUrban Tree Mapping: Launeau et al. (2017) utilized airborne hyperspectral mapping to accurately map trees in urban areas, employing narrow spectral bands to detect oxygen and water content for atmospheric effect correction. This study give exampke about the application of texture measures and surface reflectance for detailed urban vegetation analysis (Launeau et al., 2017).\nTopographic Correction in Remote Sensing: Roupioz et al. (2014) developed a method to correct topographic effects on radiance measured by satellites, using sub-pixel topography to improve the accuracy of land surface reflectance estimates. This research highlights the innovation in enhancing remote sensing data accuracy through advanced topographic modeling (Roupioz et al., 2014).\nAgricultural Yield Estimation: Feng et al. (2022) compared winter wheat yield estimation models based on near-surface and UAV hyperspectral remote sensing data, using vegetation indices and red-edge parameters. This study demonstrates the potential of integrating texture measures with other remote sensing parameters for precise agricultural monitoring (Feng et al., 2022).\n\n\n\n11 Reflection\nReflecting on this session, I’ve gained a deeper understanding of the intricacies involved in remote sensing, especially the computation and application of texture measures in analyzing surface reflectance data. The course’s practical, through the use of Google Earth Engine and the emphasis on data processing techniques, has significantly enhanced my analytical skills. I’ve learned the importance of detailed data selection and the potential of remote sensing in urban planning, environmental monitoring, and agricultural management.\n\n\n12 Reference\n\nLauneau, P., Kassouk, Z., Debaine, F., Roy, R., Mestayer, P., Boulet, C., Rouaud, J., & Giraud, M. (2017). Airborne hyperspectral mapping of trees in an urban area. International Journal of Remote Sensing, 38(8-10), 2391-2410. https://dx.doi.org/10.1080/01431161.2017.1285080\nRoupioz, L., Nerry, F., Jia, L., & Menenti, M. (2014). Improved Surface Reflectance from Remote Sensing Data with Sub-Pixel Topographic Information. Remote Sensing, 6(11), 10356. https://dx.doi.org/10.3390/rs61110356\nFeng, H., Tao, H., Fan, Y., Liu, Y., Li, Z., Yang, G., & Zhao, C. (2022). Comparison of Winter Wheat Yield Estimation Based on Near-Surface Hyperspectral and UAV Hyperspectral Remote Sensing Data. Remote Sensing, 14(17), 4158. https://dx.doi.org/10.3390/rs14174158",
+    "text": "9 Summary\nThis week, we delved into the critical aspects of Classification in remotely sensing cities and environments. We have two lectures this week, about Classification and Accuracy, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Learning Diary:GEE</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
     ]
   },
   {
@@ -262,31 +262,251 @@
   {
     "objectID": "week8.html",
     "href": "week8.html",
-    "title": "9  week8: classification",
+    "title": "9  week8: Classification and Accuracy",
     "section": "",
-    "text": "10 Week 8: classification",
+    "text": "10 Summary\nContinuing from Lecture 7, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the METHODS in accurately classifying like Subpixels, OBIA, interpreting remote sensing data.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
     ]
   },
   {
     "objectID": "week8.html#lecture-6-classification",
     "href": "week8.html#lecture-6-classification",
-    "title": "9  week8: classification",
+    "title": "9  week7: classification",
     "section": "11.1 Lecture 6: Classification",
     "text": "11.1 Lecture 6: Classification\nThe lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week7: classification</span>"
     ]
   },
   {
     "objectID": "week8.html#lecture-7-classification-and-accuracy",
     "href": "week8.html#lecture-7-classification-and-accuracy",
-    "title": "9  week8: classification",
+    "title": "9  week7: classification",
     "section": "11.2 Lecture 7: Classification and Accuracy",
     "text": "11.2 Lecture 7: Classification and Accuracy\nContinuing from Lecture 6, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the METHODS in accurately classifying like K-class, spatial/ non-spatial OOD and interpreting remote sensing data, and the implications of these challenges for environmental and urban planning.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: classification</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week7: classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#application",
+    "href": "week7.html#application",
+    "title": "Learning Diary: Exploring Remote Sensing through GLCM Texture Measures",
+    "section": "8.2 Application",
+    "text": "8.2 Application\nThe application of GLCM texture measures in remote sensing has been extensively explored in recent literature, demonstrating its versatility and effectiveness in various domains. For instance, Varish et al. (2023) introduced an innovative texture feature extraction technique for radar remote sensing image retrieval, leveraging adaptive tetrolet transform alongside GLCM features. This approach significantly enhanced the retrieval accuracy of radar images by capturing fine texture information (Varish et al., 2023).\nIn another study, Lu et al. (2021) focused on the optimal segmentation scale selection for cultivated land objects in high-resolution remote sensing images, incorporating spectral and texture features. Their methodology, which included GLCM-based texture analysis, proved to be more precise than traditional methods, showcasing the importance of texture features in enhancing segmentation accuracy (Lu et al., 2021).\nMohammadpour et al. (2022) utilized GLCM texture features along with Sentinel-2 data for vegetation mapping in Portugal. By integrating texture features with multispectral bands and vegetation indices, they achieved high classification accuracy, highlighting the added value of texture analysis in remote sensing applications (Mohammadpour et al., 2022).\nThese studies collectively underscore the innovative applications of GLCM texture measures in remote sensing, ranging from image retrieval and land segmentation to vegetation mapping. They reveal a trend towards integrating texture features with other data types (e.g., spectral bands, vegetation indices) to enhance analysis accuracy and applicability.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Learning Diary: Exploring Remote Sensing through GLCM Texture Measures</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#reflection",
+    "href": "week7.html#reflection",
+    "title": "Learning Diary: Exploring Remote Sensing through GLCM Texture Measures",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nReflecting on this session, I’ve gained a deeper understanding of the significance of texture analysis in remote sensing, particularly through the lens of GLCM texture measures. The process of converting surface reflectance values into a format suitable for texture analysis, and the strategic selection of neighborhood size for GLCM, were particularly enlightening. These steps are crucial for capturing the nuanced texture characteristics of the Earth’s surface, which can significantly impact the accuracy of remote sensing analyses.\nThe literature review further solidified my appreciation for the versatility of GLCM texture measures. Seeing how researchers have applied these measures across different domains, from radar image retrieval to vegetation mapping, has been truly inspiring. It’s fascinating to observe the innovation in methodology, such as integrating texture features with spectral data, to push the boundaries of what’s possible in remote sensing.\nLooking forward, I’m excited about the potential applications of GLCM texture measures in my future work. Whether it’s enhancing land cover classification accuracy or exploring new domains of environmental monitoring, the insights gained from this session will undoubtedly serve as a valuable foundation. The intersection of texture analysis with other remote sensing techniques opens up a realm of possibilities for more nuanced and comprehensive environmental assessments.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Learning Diary: Exploring Remote Sensing through GLCM Texture Measures</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#reference",
+    "href": "week7.html#reference",
+    "title": "Learning Diary: Exploring Remote Sensing through GLCM Texture Measures",
+    "section": "8.4 Reference",
+    "text": "8.4 Reference\n\nVarish, N., Hasan, M. K., Khan, A., Zamani, A. T., Ayyasamy, V., Islam, S., & Alam, R. (2023). Content-Based remote sensing image retrieval method using adaptive tetrolet transform based GLCM features. J. Intell. Fuzzy Syst., 44, 9627-9650. Link\nLu, H., Liu, C., Li, N.-w., Fu, X., & Li, L. (2021). Optimal segmentation scale selection and evaluation of cultivated land objects based on high-resolution remote sensing images with spectral and texture features. Environmental Science and Pollution Research, 28, 27067 - 27083. Link\nMohammadpour, P., Viegas, D., & Viegas, C. (2022). Vegetation Mapping with Random Forest Using Sentinel 2 and GLCM Texture Feature - A Case Study for Lousã Region, Portugal. Remote. Sens., 14, 4585. Link",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Learning Diary: Exploring Remote Sensing through GLCM Texture Measures</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#background",
+    "href": "week4.html#background",
+    "title": "5  week4: Policy",
+    "section": "6.1 Background",
+    "text": "6.1 Background\nAccording to The 2016 Heat Action Plan, Extreme heat events already have a significant impact in India. After a deadly heat wave hit the city of Ahmedabad in May 2010 which caused over 1,300 deaths, this plan was introduced.This Heat Action Plan aims to provide a framework for the implementation, coordination, The Plan’s primary objective is to alert those populations most at risk of heat-related illness that extreme heat conditions either exist or are imminent, and to take appropriate precautions.Our goal is to build a heat monitoring system to detect heating-risk areas using remotely sensing data.\n\n\n\nThe 2016 Heat Action Plan",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#study-area",
+    "href": "week4.html#study-area",
+    "title": "5  week4: Policy",
+    "section": "6.2 Study Area",
+    "text": "6.2 Study Area\ncity of Ahmedabad",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#data",
+    "href": "week4.html#data",
+    "title": "5  week4: Policy",
+    "section": "6.3 Data",
+    "text": "6.3 Data\nIn this study, we used surface temperature data retrieved from the ECOSTRESS Land Surface Temperature and Emissivity products recently released by the National Aeronautics and Space Administration (NASA). This dataset offers fine-scaled atmospherically corrected imagery throughout diurnal cycles at a 70 m spatial resolution base on MODIS data, which allows the estimation of daytime and nighttime LSTs. Recent studies have utilized ECOSTRESS data to evaluate heat vulnerability and reveal fine-scale heat exposure information s",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#application",
+    "href": "week6.html#application",
+    "title": "7  Week6: GEE",
+    "section": "7.2 Application",
+    "text": "7.2 Application\nThe application of GLCM texture measures in remote sensing has been extensively explored in recent literature, demonstrating its versatility and effectiveness in various domains. For instance, Varish et al. (2023) introduced an innovative texture feature extraction technique for radar remote sensing image retrieval, leveraging adaptive tetrolet transform alongside GLCM features. This approach significantly enhanced the retrieval accuracy of radar images by capturing fine texture information (Varish et al., 2023).\nIn another study, Lu et al. (2021) focused on the optimal segmentation scale selection for cultivated land objects in high-resolution remote sensing images, incorporating spectral and texture features. Their methodology, which included GLCM-based texture analysis, proved to be more precise than traditional methods, showcasing the importance of texture features in enhancing segmentation accuracy (Lu et al., 2021).\nMohammadpour et al. (2022) utilized GLCM texture features along with Sentinel-2 data for vegetation mapping in Portugal. By integrating texture features with multispectral bands and vegetation indices, they achieved high classification accuracy, highlighting the added value of texture analysis in remote sensing applications (Mohammadpour et al., 2022).\nThese studies collectively underscore the innovative applications of GLCM texture measures in remote sensing, ranging from image retrieval and land segmentation to vegetation mapping. They reveal a trend towards integrating texture features with other data types (e.g., spectral bands, vegetation indices) to enhance analysis accuracy and applicability.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#reflection",
+    "href": "week6.html#reflection",
+    "title": "7  Week6: GEE",
+    "section": "9.1 Reflection",
+    "text": "9.1 Reflection\nReflecting on this session, I’ve gained a deeper understanding of the significance of texture analysis in remote sensing, particularly through the lens of GLCM texture measures. The process of converting surface reflectance values into a format suitable for texture analysis, and the strategic selection of neighborhood size for GLCM, were particularly enlightening. These steps are crucial for capturing the nuanced texture characteristics of the Earth’s surface, which can significantly impact the accuracy of remote sensing analyses.\nThe literature review further solidified my appreciation for the versatility of GLCM texture measures. Seeing how researchers have applied these measures across different domains, from radar image retrieval to vegetation mapping, has been truly inspiring. It’s fascinating to observe the innovation in methodology, such as integrating texture features with spectral data, to push the boundaries of what’s possible in remote sensing.\nLooking forward, I’m excited about the potential applications of GLCM texture measures in my future work. Whether it’s enhancing land cover classification accuracy or exploring new domains of environmental monitoring, the insights gained from this session will undoubtedly serve as a valuable foundation. The intersection of texture analysis with other remote sensing techniques opens up a realm of possibilities for more nuanced and comprehensive environmental assessments.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#reference",
+    "href": "week6.html#reference",
+    "title": "7  Week6: GEE",
+    "section": "10.1 Reference",
+    "text": "10.1 Reference\n\nHabibie, M.I., 2022. THE APPLICATION OF MACHINE LEARNING USING GOOGLE EARTH ENGINE FOR REMOTE SENSING ANALYSIS. Jurnal Teknoinfo.\nClemente, J., Fontanelli, G., Ovando, G., Roa, Y., Lapini, A. and Santi, E., 2020. Google Earth Engine: Application Of Algorithms For Remote Sensing Of Crops In Tuscany (Italy). 2020 IEEE Latin American GRSS & ISPRS Remote Sensing Conference (LAGIRS), pp.195-200.\nVelastegui-Montoya, A., Montalvan-Burbano, N., Carrión-Mero, P., Rivera-Torres, H., Sadeck, L. and Adami, M., 2023. Google Earth Engine: A Global Analysis and Future Trends. Remote Sensing, 15(14), 3675.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "readingweek.html",
+    "href": "readingweek.html",
+    "title": "6  Reding week",
+    "section": "",
+    "text": "7 READING WEEK!!!",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reding week</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#practical-result",
+    "href": "week6.html#practical-result",
+    "title": "7  Week6: GEE",
+    "section": "8.3 practical result",
+    "text": "8.3 practical result\nThis week , we basically try a new platform and a new language.We do similar things to GIS course.\nTake Delhi as our research area, reduce image collection to a single image by mean,median,something like that.join them or clip them to right border.Then show texture and main traits by extract main component.\n\n\n\nGLCM texture",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#brief-introduction-of-geedata-format-language-scaleprojections",
+    "href": "week6.html#brief-introduction-of-geedata-format-language-scaleprojections",
+    "title": "7  Week6: GEE",
+    "section": "8.1 brief introduction of GEE(data format, language, scale,projections)",
+    "text": "8.1 brief introduction of GEE(data format, language, scale,projections)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#practical-gee",
+    "href": "week6.html#practical-gee",
+    "title": "7  Week6: GEE",
+    "section": "8.2 practical GEE",
+    "text": "8.2 practical GEE\n\ndata collection\nimage reduction(PCA)\nclip and join\nML analysis with GEE coding (further teaching will be given next two weeks)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#brief-introduction-of-gee",
+    "href": "week6.html#brief-introduction-of-gee",
+    "title": "7  Week6: GEE",
+    "section": "8.1 brief introduction of GEE",
+    "text": "8.1 brief introduction of GEE\n\ndata format\nlanguage\nscale\nprojections",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week6: GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#lecture-6-classification",
+    "href": "week7.html#lecture-6-classification",
+    "title": "8  week7: classification",
+    "section": "9.1 Lecture 6: Classification",
+    "text": "9.1 Lecture 6: Classification\nThe lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#practical-result",
+    "href": "week7.html#practical-result",
+    "title": "8  week7: classification",
+    "section": "9.2 practical result",
+    "text": "9.2 practical result\nIn GEE the supervised classifiers include: CART, RandomForest, NaiveBayes and SVM. This practical ,we use CART and RF to train our data.\n\n\n\nCARTclassification\n\n\nI encountered problem when it came to RF training.I first drew polygons but it turned out beyond computing capacity. So I had to narrow my training area, I might take some place where land use type are mixed. So it turns out that RF accuracy was bad. But I think in some extent, it emphasize the importance of different image analysis methods(OBIA,subpixels)\n\n\n\nRFclassification",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#practical-result",
+    "href": "week8.html#practical-result",
+    "title": "9  week8: Classification and Accuracy",
+    "section": "10.2 practical result",
+    "text": "10.2 practical result\nThe second lesson, delved into different clustering methods and different object types classification. It introduce different image analysis rules(OBIA), subpixels….And what we are doing in this practical is to compare the difference between subpixel and OBIA.\nSpecific explaination and how they should be matched to appropriate classification method. It introduced me to k-means clustering and Simple Non-Iterative Clustering (SNIC) as methods to reduce pixel data into more manageable objects for classification.\n\n\n\nsubpixel_classify\n\n\n\n\n\nspectral_gradient\n\n\n\n\n\nNDVI\n\n\nBut in fact,I think the practical introduction could be more specific, there are some points could be ambiguous.Like defining the end member.\n\n\n\nerror",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#accuracy-assessment-includes-several-points",
+    "href": "week8.html#accuracy-assessment-includes-several-points",
+    "title": "9  week8: Classification and Accuracy",
+    "section": "10.1 Accuracy assessment includes several points",
+    "text": "10.1 Accuracy assessment includes several points\n\nhow to assess different type of image analysis (superpicel, pixels, mixels (mixed pixel), mixed objects)\nWhat data should be used to assess accuracy(best approach-cross validation)\nhow to assess?(Error matrix, Kappa)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#practical-result",
+    "href": "week1.html#practical-result",
+    "title": "2  Week1: Introduction to Remote Sensing",
+    "section": "3.1 Practical Result",
+    "text": "3.1 Practical Result\nFirst week, we got to handle RS data with different softwares, run the whole general process of dealing with data. - Source, load and articulate the differences between Landsat and Sentinel data - Undertake basic raster image statistics and processing - Evaluate the (dis)advantages of each type of software you have used - Pull out and statistically compare spectral signature\nWHat is done is basically clipping data and exploring spectral signatures with different data source.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week1: Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week9.html",
+    "href": "week9.html",
+    "title": "10  Week9: SAR",
+    "section": "",
+    "text": "11 Summary\nThis week’s lecture introduced us to the fascinating world of Synthetic Aperture Radar (SAR) data, a powerful tool in remote sensing. SAR technology enables the capture of high-resolution images of the Earth’s surface, regardless of weather conditions or time of day.\nIts most advantage is thata it can see through clouds unlike optical sensors.We could use SAR to check the temporal difference by ratio the image. What we used in practical is mean ratio.Then validation and fusing data are also useful.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week9: SAR</span>"
+    ]
+  },
+  {
+    "objectID": "week9.html#practical-result",
+    "href": "week9.html#practical-result",
+    "title": "10  Week9: SAR",
+    "section": "11.1 Practical Result",
+    "text": "11.1 Practical Result\nThis week, we’ve done an interesting SAR project detecting change resulting from the 2020 explosion in the port of Beirut, we created a custom change detection algorithm that conducts a pixelwise t-test.the analysis is explicit and useful.And I think use a specific case is more understandable than just run a coding process without a specific target.\n\n\n\nchange pre-post\n\n\n\n\n\ndamage buildings",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week9: SAR</span>"
+    ]
+  },
+  {
+    "objectID": "week9.html#literature-review",
+    "href": "week9.html#literature-review",
+    "title": "Literature Review: SAR Applications in Remote Sensing",
+    "section": "12.1 Literature Review",
+    "text": "12.1 Literature Review\nSynthetic Aperture Radar (SAR) has emerged as a pivotal technology in remote sensing, offering unparalleled capabilities in observing the Earth’s surface under any weather conditions and at all times. This literature review delves into recent advancements and applications of SAR in remote sensing, highlighting the innovative methodologies and their implications for various fields which aboaden our views to different fields could SAR be applied to apart from war destructions.\n\nF. Cigna et al. (2023) demonstrate the application of SAR in archaeological prospection and heritage site protection. Utilizing medium to very high-resolution imagery, the study highlights SAR’s capability in detecting buried archaeological features and assessing threats to cultural heritage, thereby contributing to the conservation of archaeological sites (Cigna et al., 2023).\nMinhwa Kim et al. (2023) address the challenge of detecting earthquake-induced building damages using temporal SAR data with different observation modes. Their contextual change analysis method, based on novel textural features, showcases the adaptability of SAR in disaster response, particularly in earthquake-affected areas (Kim et al., 2023).\nSang-Eun Park et al. (2020) focus on the detection of earthquake-induced building damages using polarimetric SAR data. Their study evaluates the practical applicability of polarimetric observations for damage assessment, proposing a novel change detection method that significantly enhances the detection accuracy of damaged areas (Park et al., 2020).\n\nThese studies collectively illustrate the versatility and innovation in SAR applications, from enhancing image readability and archaeological prospection to disaster response and damage assessment. The integration of advanced algorithms and deep learning techniques with SAR data opens new avenues for remote sensing applications, promising greater accuracy and efficiency in environmental monitoring, cultural heritage protection, and disaster management.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Literature Review: SAR Applications in Remote Sensing</span>"
     ]
   }
 ]

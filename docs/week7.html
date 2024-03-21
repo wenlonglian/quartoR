@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Wenlong Lian">
-<meta name="dcterms.date" content="2024-02-29">
 
-<title>Learning Diary - 8&nbsp; output: html_document</title>
+<title>Learning Diary - 8&nbsp; week7: classification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week7.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week7.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -135,31 +133,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week4 Policy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week4: Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="./readingweek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Reding week</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week6: GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Learning Diary:GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Week9: SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -178,7 +182,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9</span> Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#lecture-6-classification" id="toc-lecture-6-classification" class="nav-link" data-scroll-target="#lecture-6-classification"><span class="header-section-number">9.1</span> Lecture 6: Classification</a></li>
+  <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">9.2</span> practical result</a></li>
+  </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">10</span> Application</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">11</span> Reflection</a></li>
   <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">12</span> Reference</a></li>
@@ -190,26 +198,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">output: html_document</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week7: classification</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Wenlong Lian </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 29, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -219,37 +215,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>#Week 7: GEE</p>
-<hr>
-<p>title: “Learning Diary:GEE” author: “Wenlong Lian” date: “2024-02-29”</p>
 <section id="summary" class="level1" data-number="9">
 <h1 data-number="9"><span class="header-section-number">9</span> Summary</h1>
-<p>In the remotely sensing course, I explored various aspects of remote sensing and its applications, particularly focusing on texture measures in surface reflectance. The course introduced the concept of texture measures and their significance in remote sensing data analysis. Key points from the course include:</p>
-<ul>
-<li><strong>Texture Measures</strong>: The course detailed how texture measures can be computed from remote sensing data, emphasizing the importance of integer values for the <code>glcmTexture()</code> function. This is crucial for analyzing surface reflectance data, which typically involves converting reflectance values to binary forms to compute texture.</li>
-<li><strong>Surface Reflectance Layer</strong>: Adding a clipped surface reflectance layer to maps highlight the method to query individual pixels using the inspector tab. This process is vital for understanding the spatial distribution of surface features.</li>
-<li><strong>Data Selection and Processing</strong>: The course covered the selection of data using regular expressions to extract contrast and dissimilarity, and the addition of original bands back into the image collection for comprehensive analysis.</li>
-</ul>
+<p>This week, we delved into the critical aspects of <strong>Classification</strong> in remotely sensing cities and environments. We have two lectures this week, about <em>Classification and Accuracy</em>, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.</p>
+<section id="lecture-6-classification" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="lecture-6-classification"><span class="header-section-number">9.1</span> Lecture 6: Classification</h2>
+<p>The lecture introduced the concept of classification in remote sensing, including <strong>Decision tree, rANDOM FOREST and SVM </strong>,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.</p>
+</section>
+<section id="practical-result" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">9.2</span> practical result</h2>
+<p>In GEE the supervised classifiers include: CART, RandomForest, NaiveBayes and SVM. This practical ,we use CART and RF to train our data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week6/GEE_classified_map.png" class="img-fluid figure-img"></p>
+<figcaption>CARTclassification</figcaption>
+</figure>
+</div>
+<p>I encountered problem when it came to RF training.I first drew polygons but it turned out beyond computing capacity. So I had to narrow my training area, I might take some place where land use type are mixed. So it turns out that RF accuracy was bad. But I think in some extent, it emphasize the importance of different image analysis methods(OBIA,subpixels)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="output/week6/图片1.png" class="img-fluid figure-img"></p>
+<figcaption>RFclassification</figcaption>
+</figure>
+</div>
+</section>
 </section>
 <section id="application" class="level1" data-number="10">
 <h1 data-number="10"><span class="header-section-number">10</span> Application</h1>
-<p>The application of remote sensing and texture measures in literature reveals a diverse range of studies leveraging these methods for environmental and agricultural analysis. Three notable examples include:</p>
-<ol type="1">
-<li><p><strong>Urban Tree Mapping</strong>: Launeau et al.&nbsp;(2017) utilized airborne hyperspectral mapping to accurately map trees in urban areas, employing narrow spectral bands to detect oxygen and water content for atmospheric effect correction. This study give exampke about the application of texture measures and surface reflectance for detailed urban vegetation analysis (<a href="https://dx.doi.org/10.1080/01431161.2017.1285080">Launeau et al., 2017</a>).</p></li>
-<li><p><strong>Topographic Correction in Remote Sensing</strong>: Roupioz et al.&nbsp;(2014) developed a method to correct topographic effects on radiance measured by satellites, using sub-pixel topography to improve the accuracy of land surface reflectance estimates. This research highlights the innovation in enhancing remote sensing data accuracy through advanced topographic modeling (<a href="https://dx.doi.org/10.3390/rs61110356">Roupioz et al., 2014</a>).</p></li>
-<li><p><strong>Agricultural Yield Estimation</strong>: Feng et al.&nbsp;(2022) compared winter wheat yield estimation models based on near-surface and UAV hyperspectral remote sensing data, using vegetation indices and red-edge parameters. This study demonstrates the potential of integrating texture measures with other remote sensing parameters for precise agricultural monitoring (<a href="https://dx.doi.org/10.3390/rs14174158">Feng et al., 2022</a>).</p></li>
-</ol>
+<p>These literature reveal the diverse applications of Sentinel-2 data in environmental monitoring, showcasing the satellite’s versatility and the innovative methodologies employed in recent studies:</p>
+<ul>
+<li><p><strong>Land Cover/Use Mapping</strong>: Phiri et al.&nbsp;(2020) conducted a comprehensive review of Sentinel-2’s contribution to land cover/use classification, highlighting its high spatial resolution and the effectiveness of <strong>machine-learning classifiers</strong> like SVM and Random Forest in achieving high accuracies. This study underscores Sentinel-2’s potential in monitoring crops, forests, urban areas, and water resources (<a href="https://consensus.app/papers/sentinel2-data-land-coveruse-mapping-review-phiri/448b285c2da15b67883a7874b63f068b/">Remote. Sens., 12, 2291</a>).</p></li>
+<li><p><strong>Wetlands Monitoring</strong>: Pena-Regueiro et al.&nbsp;(2020) demonstrated Sentinel-2’s capability in detecting small water bodies within wetlands, employing the NDWI index to monitor environmental changes effectively. This application is crucial for understanding wetland dynamics and managing water resources (<a href="https://consensus.app/papers/sentinel2-application-surface-characterization-small-penaregueiro/39b15b5947285e68a060c8336c8cac04/">Water</a>.</p></li>
+<li><p><strong>Drought Assessment</strong>: Varghese et al.&nbsp;(2021) reviewed the potential of Sentinel-2 in assessing drought through various parameters such as vegetation characteristics and soil moisture. The study highlights Sentinel-2’s advantages over other data sources like Landsat and MODIS in drought analysis, emphasizing its spatial, temporal, and spectral characteristics (<a href="https://consensus.app/papers/reviewing-potential-sentinel2-assessing-drought-varghese/1af1b718985d5f2499bda444f3e13d10/">Remote. Sens., 13, 3355</a>).</p></li>
+</ul>
+<p>These studies illustrate more applications in different area, the innovative use of Sentinel-2 data in addressing different types of environmental challenges, reflecting on the classification methods and tools discussed in the course. The integration of machine learning and index-based approaches for data analysis demonstrates the evolving landscape of remote sensing applications.The CART and RF classification methods can go further in these cases.</p>
 </section>
 <section id="reflection" class="level1" data-number="11">
 <h1 data-number="11"><span class="header-section-number">11</span> Reflection</h1>
-<p>Reflecting on this session, I’ve gained a deeper understanding of the intricacies involved in remote sensing, especially the computation and application of texture measures in analyzing surface reflectance data. The course’s practical, through the use of Google Earth Engine and the emphasis on data processing techniques, has significantly enhanced my analytical skills. I’ve learned the importance of detailed data selection and the potential of remote sensing in urban planning, environmental monitoring, and agricultural management.</p>
+<p>Reflecting on the remote sensing course, I’ve gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied? I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions.And I also think the error I made in practical can erose deep thinking about how the image classification works exactly.</p>
 </section>
 <section id="reference" class="level1" data-number="12">
 <h1 data-number="12"><span class="header-section-number">12</span> Reference</h1>
 <ul>
-<li>Launeau, P., Kassouk, Z., Debaine, F., Roy, R., Mestayer, P., Boulet, C., Rouaud, J., &amp; Giraud, M. (2017). Airborne hyperspectral mapping of trees in an urban area. <em>International Journal of Remote Sensing</em>, 38(8-10), 2391-2410. https://dx.doi.org/10.1080/01431161.2017.1285080</li>
-<li>Roupioz, L., Nerry, F., Jia, L., &amp; Menenti, M. (2014). Improved Surface Reflectance from Remote Sensing Data with Sub-Pixel Topographic Information. <em>Remote Sensing</em>, 6(11), 10356. https://dx.doi.org/10.3390/rs61110356</li>
-<li>Feng, H., Tao, H., Fan, Y., Liu, Y., Li, Z., Yang, G., &amp; Zhao, C. (2022). Comparison of Winter Wheat Yield Estimation Based on Near-Surface Hyperspectral and UAV Hyperspectral Remote Sensing Data. <em>Remote Sensing</em>, 14(17), 4158. https://dx.doi.org/10.3390/rs14174158</li>
+<li><p>Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V., Murayama, Y., &amp; Ranagalage, M. (2020). Sentinel-2 Data for Land Cover/Use Mapping: A Review. <em>Remote. Sens.</em>, 12, 2291. <a href="https://consensus.app/papers/sentinel2-data-land-coveruse-mapping-review-phiri/448b285c2da15b67883a7874b63f068b/">Link</a></p></li>
+<li><p>Pena-Regueiro, J., Sebastiá-Frasquet, M., Estornell, J., &amp; Aguilar-Maldonado, J. (2020). Sentinel-2 Application to the Surface Characterization of Small Water Bodies in Wetlands. <em>Water</em>. <a href="https://consensus.app/papers/sentinel2-application-surface-characterization-small-penaregueiro/39b15b5947285e68a060c8336c8cac04/">Link</a></p></li>
+<li><p>Varghese, D., Radulović, M., Stojkovic, S., &amp; Crnojevic, V. (2021). Reviewing the Potential of Sentinel-2 in Assessing the Drought. <em>Remote. Sens.</em>, 13, 3355. <a href="https://consensus.app/papers/reviewing-potential-sentinel2-assessing-drought-varghese/1af1b718985d5f2499bda444f3e13d10/">Link</a></p></li>
 </ul>
 
 
@@ -645,13 +655,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./week6.html" class="pagination-link  aria-label=" &lt;span="" week&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Reding week</span></span>
+      <a href="./week6.html" class="pagination-link  aria-label=" &lt;span="" gee&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week6: GEE</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week8.html" class="pagination-link" aria-label="<span class='chapter-number'>9</span>&nbsp; <span class='chapter-title'>week8: classification</span>">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: classification</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week8.html" class="pagination-link" aria-label="<span class='chapter-number'>9</span>&nbsp; <span class='chapter-title'>week8: Classification and Accuracy</span>">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week8: Classification and Accuracy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,39 +1,50 @@
-
-
-#Week 7: GEE
 ---
-title: "Learning Diary:GEE"
-author: "Wenlong Lian"
-date: "2024-02-29"
-output: html_document
+title: "week7: classification"
+format: html
+editor: visual
 ---
-
-
 # Summary
 
-In the remotely sensing course, I explored various aspects of remote sensing and its applications, particularly focusing on texture measures in surface reflectance. The course introduced the concept of texture measures and their significance in remote sensing data analysis. Key points from the course include:
+This week, we delved into the critical aspects of **Classification** in remotely sensing cities and environments. We have two lectures this week, about *Classification and Accuracy*, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.
 
-- **Texture Measures**: The course detailed how texture measures can be computed from remote sensing data, emphasizing the importance of integer values for the `glcmTexture()` function. This is crucial for analyzing surface reflectance data, which typically involves converting reflectance values to binary forms to compute texture.
-- **Surface Reflectance Layer**: Adding a clipped surface reflectance layer to maps highlight the method to query individual pixels using the inspector tab. This process is vital for understanding the spatial distribution of surface features.
-- **Data Selection and Processing**: The course covered the selection of data using regular expressions to extract contrast and dissimilarity, and the addition of original bands back into the image collection for comprehensive analysis.
+## Lecture 6: Classification
+
+The lecture introduced the concept of classification in remote sensing, including **Decision tree, rANDOM FOREST and SVM **,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.
+
+
+
+## practical result
+In GEE the supervised classifiers include: CART, RandomForest, NaiveBayes and SVM. This practical ,we use CART and RF to train our data.
+
+![CARTclassification](output/week6/GEE_classified_map.png)
+
+I encountered problem when it came to RF training.I first drew polygons but it turned out beyond computing capacity. So I had to narrow my training area, I might take some place where land use type are mixed. So it turns out that RF accuracy was bad. But I think in some extent, it emphasize the importance of different image analysis methods(OBIA,subpixels)
+
+
+![RFclassification](output/week6/图片1.png)
+
 
 # Application
 
-The application of remote sensing and texture measures in literature reveals a diverse range of studies leveraging these methods for environmental and agricultural analysis. Three notable examples include:
+These literature reveal the diverse applications of Sentinel-2 data in environmental monitoring, showcasing the satellite's versatility and the innovative methodologies employed in recent studies:
 
-1. **Urban Tree Mapping**: Launeau et al. (2017) utilized airborne hyperspectral mapping to accurately map trees in urban areas, employing narrow spectral bands to detect oxygen and water content for atmospheric effect correction. This study give exampke about the application of texture measures and surface reflectance for detailed urban vegetation analysis ([Launeau et al., 2017](https://dx.doi.org/10.1080/01431161.2017.1285080)).
+- **Land Cover/Use Mapping**: Phiri et al. (2020) conducted a comprehensive review of Sentinel-2's contribution to land cover/use classification, highlighting its high spatial resolution and the effectiveness of **machine-learning classifiers** like SVM and Random Forest in achieving high accuracies. This study underscores Sentinel-2's potential in monitoring crops, forests, urban areas, and water resources ([Remote. Sens., 12, 2291](https://consensus.app/papers/sentinel2-data-land-coveruse-mapping-review-phiri/448b285c2da15b67883a7874b63f068b/)).
 
-2. **Topographic Correction in Remote Sensing**: Roupioz et al. (2014) developed a method to correct topographic effects on radiance measured by satellites, using sub-pixel topography to improve the accuracy of land surface reflectance estimates. This research highlights the innovation in enhancing remote sensing data accuracy through advanced topographic modeling ([Roupioz et al., 2014](https://dx.doi.org/10.3390/rs61110356)).
+- **Wetlands Monitoring**: Pena-Regueiro et al. (2020) demonstrated Sentinel-2's capability in detecting small water bodies within wetlands, employing the NDWI index to monitor environmental changes effectively. This application is crucial for understanding wetland dynamics and managing water resources ([Water](https://consensus.app/papers/sentinel2-application-surface-characterization-small-penaregueiro/39b15b5947285e68a060c8336c8cac04/).
 
-3. **Agricultural Yield Estimation**: Feng et al. (2022) compared winter wheat yield estimation models based on near-surface and UAV hyperspectral remote sensing data, using vegetation indices and red-edge parameters. This study demonstrates the potential of integrating texture measures with other remote sensing parameters for precise agricultural monitoring ([Feng et al., 2022](https://dx.doi.org/10.3390/rs14174158)).
+- **Drought Assessment**: Varghese et al. (2021) reviewed the potential of Sentinel-2 in assessing drought through various parameters such as vegetation characteristics and soil moisture. The study highlights Sentinel-2's advantages over other data sources like Landsat and MODIS in drought analysis, emphasizing its spatial, temporal, and spectral characteristics ([Remote. Sens., 13, 3355](https://consensus.app/papers/reviewing-potential-sentinel2-assessing-drought-varghese/1af1b718985d5f2499bda444f3e13d10/)).
+
+These studies illustrate more applications in different area, the innovative use of Sentinel-2 data in addressing different types of environmental challenges, reflecting on the classification methods and tools discussed in the course. The integration of machine learning and index-based approaches for data analysis demonstrates the evolving landscape of remote sensing applications.The CART and RF classification methods can go further in these cases.
 
 # Reflection
 
-Reflecting on this session, I've gained a deeper understanding of the intricacies involved in remote sensing, especially the computation and application of texture measures in analyzing surface reflectance data. The course's practical, through the use of Google Earth Engine and the emphasis on data processing techniques, has significantly enhanced my analytical skills. I've learned the importance of detailed data selection and the potential of remote sensing in urban planning, environmental monitoring, and agricultural management.
-
+Reflecting on the remote sensing course, I've gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied? I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions.And I also think the error I made in practical can erose deep thinking about how the image classification works exactly.
 
 # Reference
 
-- Launeau, P., Kassouk, Z., Debaine, F., Roy, R., Mestayer, P., Boulet, C., Rouaud, J., & Giraud, M. (2017). Airborne hyperspectral mapping of trees in an urban area. *International Journal of Remote Sensing*, 38(8-10), 2391-2410. https://dx.doi.org/10.1080/01431161.2017.1285080
-- Roupioz, L., Nerry, F., Jia, L., & Menenti, M. (2014). Improved Surface Reflectance from Remote Sensing Data with Sub-Pixel Topographic Information. *Remote Sensing*, 6(11), 10356. https://dx.doi.org/10.3390/rs61110356
-- Feng, H., Tao, H., Fan, Y., Liu, Y., Li, Z., Yang, G., & Zhao, C. (2022). Comparison of Winter Wheat Yield Estimation Based on Near-Surface Hyperspectral and UAV Hyperspectral Remote Sensing Data. *Remote Sensing*, 14(17), 4158. https://dx.doi.org/10.3390/rs14174158
+- Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V., Murayama, Y., & Ranagalage, M. (2020). Sentinel-2 Data for Land Cover/Use Mapping: A Review. *Remote. Sens.*, 12, 2291. [Link](https://consensus.app/papers/sentinel2-data-land-coveruse-mapping-review-phiri/448b285c2da15b67883a7874b63f068b/)
+
+- Pena-Regueiro, J., Sebastiá-Frasquet, M., Estornell, J., & Aguilar-Maldonado, J. (2020). Sentinel-2 Application to the Surface Characterization of Small Water Bodies in Wetlands. *Water*. [Link](https://consensus.app/papers/sentinel2-application-surface-characterization-small-penaregueiro/39b15b5947285e68a060c8336c8cac04/)
+
+- Varghese, D., Radulović, M., Stojkovic, S., & Crnojevic, V. (2021). Reviewing the Potential of Sentinel-2 in Assessing the Drought. *Remote. Sens.*, 13, 3355. [Link](https://consensus.app/papers/reviewing-potential-sentinel2-assessing-drought-varghese/1af1b718985d5f2499bda444f3e13d10/)
+

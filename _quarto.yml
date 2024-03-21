@@ -5,7 +5,7 @@ project:
 book:
   title: "Learning Diary"
   author: "Wenlong Lian"
-  date: "2024/1/22"
+  date: "2024/3/22"
   
   chapters:
     - index.qmd
@@ -13,11 +13,11 @@ book:
     - week2.qmd
     - week3.qmd
     - week4.qmd
-    - week5.qmd
+    - readingweek.qmd
     - week6.qmd
     - week7.qmd
     - week8.qmd
-    
+    - week9.qmd
     - references.qmd
 
 bibliography: references.bib
