@@ -1,5 +1,5 @@
 ---
-title: "week7: classification"
+title: "Week7: classification"
 format: html
 editor: visual
 ---

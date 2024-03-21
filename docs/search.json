@@ -192,11 +192,11 @@
   {
     "objectID": "week4.html",
     "href": "week4.html",
-    "title": "5  week4: Policy",
+    "title": "5  Week4: Policy",
     "section": "",
     "text": "6 Summary",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4: Policy</span>"
     ]
   },
   {
@@ -242,11 +242,11 @@
   {
     "objectID": "week7.html",
     "href": "week7.html",
-    "title": "8  week7: classification",
+    "title": "8  Week7: classification",
     "section": "",
     "text": "9 Summary\nThis week, we delved into the critical aspects of Classification in remotely sensing cities and environments. We have two lectures this week, about Classification and Accuracy, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week7: classification</span>"
     ]
   },
   {
@@ -262,11 +262,11 @@
   {
     "objectID": "week8.html",
     "href": "week8.html",
-    "title": "9  week8: Classification and Accuracy",
+    "title": "9  Week8: Classification and Accuracy",
     "section": "",
     "text": "10 Summary\nContinuing from Lecture 7, this session delved deeper into the questions surrounding classification techniques and emphasized the importance of accuracy in remote sensing. It highlighted the METHODS in accurately classifying like Subpixels, OBIA, interpreting remote sensing data.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week8: Classification and Accuracy</span>"
     ]
   },
   {
@@ -322,31 +322,31 @@
   {
     "objectID": "week4.html#background",
     "href": "week4.html#background",
-    "title": "5  week4: Policy",
+    "title": "5  Week4: Policy",
     "section": "6.1 Background",
     "text": "6.1 Background\nAccording to The 2016 Heat Action Plan, Extreme heat events already have a significant impact in India. After a deadly heat wave hit the city of Ahmedabad in May 2010 which caused over 1,300 deaths, this plan was introduced.This Heat Action Plan aims to provide a framework for the implementation, coordination, The Plan’s primary objective is to alert those populations most at risk of heat-related illness that extreme heat conditions either exist or are imminent, and to take appropriate precautions.Our goal is to build a heat monitoring system to detect heating-risk areas using remotely sensing data.\n\n\n\nThe 2016 Heat Action Plan",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4: Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#study-area",
     "href": "week4.html#study-area",
-    "title": "5  week4: Policy",
+    "title": "5  Week4: Policy",
     "section": "6.2 Study Area",
     "text": "6.2 Study Area\ncity of Ahmedabad",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4: Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#data",
     "href": "week4.html#data",
-    "title": "5  week4: Policy",
+    "title": "5  Week4: Policy",
     "section": "6.3 Data",
     "text": "6.3 Data\nIn this study, we used surface temperature data retrieved from the ECOSTRESS Land Surface Temperature and Emissivity products recently released by the National Aeronautics and Space Administration (NASA). This dataset offers fine-scaled atmospherically corrected imagery throughout diurnal cycles at a 70 m spatial resolution base on MODIS data, which allows the estimation of daytime and nighttime LSTs. Recent studies have utilized ECOSTRESS data to evaluate heat vulnerability and reveal fine-scale heat exposure information s",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week4: Policy</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week4: Policy</span>"
     ]
   },
   {
@@ -382,11 +382,11 @@
   {
     "objectID": "readingweek.html",
     "href": "readingweek.html",
-    "title": "6  Reding week",
+    "title": "6  Reading week",
     "section": "",
     "text": "7 READING WEEK!!!",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reding week</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reading week</span>"
     ]
   },
   {
@@ -432,41 +432,41 @@
   {
     "objectID": "week7.html#lecture-6-classification",
     "href": "week7.html#lecture-6-classification",
-    "title": "8  week7: classification",
+    "title": "8  Week7: classification",
     "section": "9.1 Lecture 6: Classification",
     "text": "9.1 Lecture 6: Classification\nThe lecture introduced the concept of classification in remote sensing, including Decision tree, rANDOM FOREST and SVM ,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week7: classification</span>"
     ]
   },
   {
     "objectID": "week7.html#practical-result",
     "href": "week7.html#practical-result",
-    "title": "8  week7: classification",
+    "title": "8  Week7: classification",
     "section": "9.2 practical result",
     "text": "9.2 practical result\nIn GEE the supervised classifiers include: CART, RandomForest, NaiveBayes and SVM. This practical ,we use CART and RF to train our data.\n\n\n\nCARTclassification\n\n\nI encountered problem when it came to RF training.I first drew polygons but it turned out beyond computing capacity. So I had to narrow my training area, I might take some place where land use type are mixed. So it turns out that RF accuracy was bad. But I think in some extent, it emphasize the importance of different image analysis methods(OBIA,subpixels)\n\n\n\nRFclassification",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week7: classification</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week7: classification</span>"
     ]
   },
   {
     "objectID": "week8.html#practical-result",
     "href": "week8.html#practical-result",
-    "title": "9  week8: Classification and Accuracy",
+    "title": "9  Week8: Classification and Accuracy",
     "section": "10.2 practical result",
     "text": "10.2 practical result\nThe second lesson, delved into different clustering methods and different object types classification. It introduce different image analysis rules(OBIA), subpixels….And what we are doing in this practical is to compare the difference between subpixel and OBIA.\nSpecific explaination and how they should be matched to appropriate classification method. It introduced me to k-means clustering and Simple Non-Iterative Clustering (SNIC) as methods to reduce pixel data into more manageable objects for classification.\n\n\n\nsubpixel_classify\n\n\n\n\n\nspectral_gradient\n\n\n\n\n\nNDVI\n\n\nBut in fact,I think the practical introduction could be more specific, there are some points could be ambiguous.Like defining the end member.\n\n\n\nerror",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week8: Classification and Accuracy</span>"
     ]
   },
   {
     "objectID": "week8.html#accuracy-assessment-includes-several-points",
     "href": "week8.html#accuracy-assessment-includes-several-points",
-    "title": "9  week8: Classification and Accuracy",
+    "title": "9  Week8: Classification and Accuracy",
     "section": "10.1 Accuracy assessment includes several points",
     "text": "10.1 Accuracy assessment includes several points\n\nhow to assess different type of image analysis (superpicel, pixels, mixels (mixed pixel), mixed objects)\nWhat data should be used to assess accuracy(best approach-cross validation)\nhow to assess?(Error matrix, Kappa)",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week8: Classification and Accuracy</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week8: Classification and Accuracy</span>"
     ]
   },
   {

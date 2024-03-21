@@ -1,5 +1,5 @@
 ---
-title: "week8: Classification and Accuracy"
+title: "Week8: Classification and Accuracy"
 output: html_document
 ---
 

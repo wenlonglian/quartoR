@@ -1,9 +1,8 @@
+# Week2： Xaringen and Quarto
 
-# week2： Xaringen and Quarto
+This week we learnt Xaringen and Quarto which are tools to make presentation and html with code. It is a better way to make presentation more accessible and mergible for different codes.
 
-  This week we learnt Xaringen and Quarto which are tools to make presentation and html with code. It is a better way to make presentation more accessible and mergible for different codes.
-
-# Summary
+## Summary
 
 ```{r echo = FALSE, out.width='50%'}
 xaringanExtra::embed_xaringan(
@@ -11,8 +10,6 @@ xaringanExtra::embed_xaringan(
   ratio = "4:3")
 
 ```
-
-
 
 ## SAR Application
 
@@ -24,6 +21,6 @@ In the research, SAR data is collected using spaceborne radar sensors that emit 
 
 The analysis of SAR data involves advanced techniques such as Interferometric Synthetic Aperture Radar (InSAR). InSAR utilizes the phase differences in the radar signals received over multiple passes to detect even slight changes in the Earth's surface, such as those caused by underground movements or reservoir changes. This method enables accurate monitoring of ground deformation, which is critical in understanding the dynamics of reservoirs and their impact on the surrounding environment.
 
-
 ## Reflection
-  This week is a challenge to use new tool to produce presentation, Xaringen and Quarto. Amazing to know this advanced skill which can help my job hunting. Though I find it a bit hard to use.
+
+This week is a challenge to use new tool to produce presentation, Xaringen and Quarto. Amazing to know this advanced skill which can help my job hunting. Though I find it a bit hard to use.
