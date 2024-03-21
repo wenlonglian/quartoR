@@ -4,7 +4,7 @@ title: "Week1: Introduction to Remote Sensing"
 output: html_document
 ---
 
-# Summary
+## Summary
 
   The course content introduces the fundamentals of remote sensing, focusing on the use and analysis of Sentinel and Landsat data for environmental monitoring.Also lead us to go through tool using processes. Key learning outcomes include:
 
@@ -16,7 +16,7 @@ output: html_document
 
 ![SNAP interface](https://andrewmaclachlan.github.io/CASA0023/prac_1/sentinel_data_cape_town_TCI.png)
 
-## Practical Result
+### Practical Result
   
   First week, we got to handle RS data with different **softwares**, run the whole general process of dealing with data. 
 - Source, load and articulate the differences between Landsat and Sentinel data
@@ -31,7 +31,7 @@ output: html_document
 
 
 
-# Application
+## Application
 By this week, my initial understanding of RS is about spectral traits visualization. So I search for some real project using landsat or sentinel to detect spectral changes on ground.Mainly used in detecting land use and the basic attribute like temperature, gradients.....
 
 1. **Forest Monitoring** [Coppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. *Remote Sensing Reviews*, 13(3-4), 207-234.](https://www.tandfonline.com/doi/abs/10.1080/02757259609532305) utilized Landsat data to track deforestation and forest degradation over time. The study employed digital change detection techniques to analyze temporal variations in forest ecosystems.
@@ -42,11 +42,11 @@ By this week, my initial understanding of RS is about spectral traits visualizat
 
   The studies reveal a progression from foundational remote sensing techniques towards more sophisticated and user-friendly analytical methods. Innovations in software and processing tools have expanded the capabilities of researchers to analyze and interpret environmental data, enhancing the accuracy and efficiency of remote sensing analyses.
 
-# Reflection
+## Reflection
 
   Throughout this session on remote sensing, I've learned the importance and application of satellite data in environmental monitoring. Understanding the differences between Landsat and Sentinel datasets and how to process these images in software like QGIS and SNAP has opened up new avenues for analyzing geographical information. The practical applications, from forest monitoring to urban planning, have shown me the vast potential of remote sensing data. Reflecting on this, I see immense value in applying these techniques to future projects, particularly in urban sustainability and climate change mitigation efforts. The resources provided, especially the detailed instructions for data processing, have enriched my understanding and skills in remote sensing.
 
-# References
+## References
 
 - Coppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. *Remote Sensing Reviews*, 13(3-4), 207-234.
 - Esch, T., et al. (2017). Breaking new ground in mapping human settlements from space – The Global Urban Footprint. *ISPRS Journal of Photogrammetry and Remote Sensing*, 134, 30-42.

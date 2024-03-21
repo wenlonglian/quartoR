@@ -3,17 +3,17 @@ title: "Week7: classification"
 format: html
 editor: visual
 ---
-# Summary
+## Summary
 
 This week, we delved into the critical aspects of **Classification** in remotely sensing cities and environments. We have two lectures this week, about *Classification and Accuracy*, provided a comprehensive overview of how remote sensing technologies can be applied to classify and analyze various environmental and urban parameters.
 
-## Lecture 6: Classification
+### Lecture 6: Classification
 
 The lecture introduced the concept of classification in remote sensing, including **Decision tree, rANDOM FOREST and SVM **,focusing on the methodologies and applications of classifying satellite imagery into different land cover types. This process is crucial for understanding the composition of various landscapes and urban areas.
 
 
 
-## practical result
+### practical result
 In GEE the supervised classifiers include: CART, RandomForest, NaiveBayes and SVM. This practical ,we use CART and RF to train our data.
 
 ![CARTclassification](output/week6/GEE_classified_map.png)
@@ -24,7 +24,7 @@ I encountered problem when it came to RF training.I first drew polygons but it t
 ![RFclassification](output/week6/图片1.png)
 
 
-# Application
+## Application
 
 These literature reveal the diverse applications of Sentinel-2 data in environmental monitoring, showcasing the satellite's versatility and the innovative methodologies employed in recent studies:
 
@@ -36,11 +36,11 @@ These literature reveal the diverse applications of Sentinel-2 data in environme
 
 These studies illustrate more applications in different area, the innovative use of Sentinel-2 data in addressing different types of environmental challenges, reflecting on the classification methods and tools discussed in the course. The integration of machine learning and index-based approaches for data analysis demonstrates the evolving landscape of remote sensing applications.The CART and RF classification methods can go further in these cases.
 
-# Reflection
+## Reflection
 
 Reflecting on the remote sensing course, I've gained invaluable insights into the power and potential of remote sensing technologies. I got to learn more multi-tool using, like how GEE can be combined with machine learning, how data should be classfied? I am particularly intrigued by the potential of remote sensing in environmental conservation, such as monitoring deforestation and predicting flood risks. These applications demonstrate how remote sensing data, when accurately classified and analyzed, can be a powerful tool in making informed decisions and implementing effective solutions.And I also think the error I made in practical can erose deep thinking about how the image classification works exactly.
 
-# Reference
+## Reference
 
 - Phiri, D., Simwanda, M., Salekin, S., Nyirenda, V., Murayama, Y., & Ranagalage, M. (2020). Sentinel-2 Data for Land Cover/Use Mapping: A Review. *Remote. Sens.*, 12, 2291. [Link](https://consensus.app/papers/sentinel2-data-land-coveruse-mapping-review-phiri/448b285c2da15b67883a7874b63f068b/)
 

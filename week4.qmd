@@ -4,8 +4,8 @@ format: html
 editor: visual
 ---
 
-# Summary
-## Background
+## Summary
+### Background
 
   According to [The 2016 Heat Action Plan](https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf), Extreme heat events already have a significant impact in India. After a deadly heat wave hit the city of Ahmedabad in May 2010 which caused over 1,300 deaths, this plan was introduced.This Heat Action Plan aims to provide a framework for the implementation, coordination, The Plan's primary objective is to alert those populations most at risk of heat-related illness that extreme heat conditions either exist or are imminent, and to take appropriate precautions.Our goal is to build a heat monitoring system to detect heating-risk areas using remotely sensing data.
   
@@ -13,26 +13,26 @@ editor: visual
 ![The 2016 Heat Action Plan](output/policy/图片1.png)
 
 
-## Study Area
+### Study Area
 
   city of Ahmedabad
 
-## Data
+### Data
 
   In this study, we used surface temperature data retrieved from the ECOSTRESS Land Surface Temperature and Emissivity products recently released by the National Aeronautics and Space Administration (NASA). This dataset offers fine-scaled atmospherically corrected imagery throughout diurnal cycles at a 70 m spatial resolution base on MODIS data, which allows the estimation of daytime and nighttime LSTs. Recent studies have utilized ECOSTRESS data to evaluate heat vulnerability and reveal fine-scale heat exposure information s
 
-# Application
+## Application
 
   To compare land surface temperature, we use dataset from NASA exclusively for LST. we capture heat hazards and comparing urban heat exposure across different areas. TO visualize the changes between time, we combine the images and take mean ratio images. By doing this, wecan distinguish heating-risk areas using remotely sensing data and validated the use of LST to infer thermal comfort, such as the Physiological Equivalent Temperature (PET) .
 
 ![detecting LST high-risk area](output/policy/images_large_10.1177_23998083211039854-fig2.jpeg)
 
-# Reflection
+## Reflection
 
   Remotely sensing as a useful tool can help policy makers better understand the complexity of urban issues, develop evidence-based decision-making, and effectively monitor and evaluate the outcomes of policy implementation. This is exactly how smart cities work.Remote sensing technology continues to progress, and data collection is more comprehensive. Such passively collected data can provide scientific data support for urban problems.
   In this case, we learnt how to use rs data to know land surface temperature and compare its changes across a span of time
 
-# Reference
+## Reference
 
 -   Ahmedabad-heat-action-plan-2016.pdf. Available at: https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf (Accessed: 19 March 2024).
 -   Li, D. et al. (2021) 'Modeling the relationships between historical redlining, urban heat, and heat-related emergency department visits: An examination of 11 Texas cities', Environment and Planning B: Urban Analytics and City Science, 49(3), pp. 933--952. doi:10.1177/23998083211039854.
