@@ -1,5 +1,5 @@
 ---
-title: "Reding week"
+title: "Reading week"
 format: html
 editor: visual
 ---

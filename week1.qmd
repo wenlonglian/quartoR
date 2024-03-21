@@ -32,6 +32,7 @@ output: html_document
 
 
 # Application
+By this week, my initial understanding of RS is about spectral traits visualization. So I search for some real project using landsat or sentinel to detect spectral changes on ground.Mainly used in detecting land use and the basic attribute like temperature, gradients.....
 
 1. **Forest Monitoring** [Coppin, P., & Bauer, M. E. (1996). Digital change detection in forest ecosystems with remote sensing imagery. *Remote Sensing Reviews*, 13(3-4), 207-234.](https://www.tandfonline.com/doi/abs/10.1080/02757259609532305) utilized Landsat data to track deforestation and forest degradation over time. The study employed digital change detection techniques to analyze temporal variations in forest ecosystems.
 
